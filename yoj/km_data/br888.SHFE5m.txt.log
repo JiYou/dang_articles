@@ -1,0 +1,17 @@
+Total data points: 35083
+Training data points: 21049 (first 60%)
+Testing data points: 14034 (last 40%)
+------------------------------
+Starting Optuna optimization on the training set...
+Optimization finished.
+------------------------------
+--- In-Sample Results (Training Set) ---
+Optimal parameters found: {'length0': 3, 'p1': 2, 'p2': 3, 'p3': 11}
+Profit on training set: 99414.69
+------------------------------
+--- Out-of-Sample Results (Test Set) ---
+Applying parameters {'length0': 3, 'p1': 2, 'p2': 3, 'p3': 11} to the test set.
+Profit on test set: 72267.05
+------------------------------
+Strategy chart saved to: br888.SHFE5m.strategy.png
+Cumulative PnL chart saved to: br888.SHFE5m.pnl.png

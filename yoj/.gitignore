@@ -1,0 +1,14 @@
+# Compiled binaries
+cyclical_backtest
+stock_data_bfq/ema_strategy
+stock_data_bfq/svm_strategy
+stock_data_bfq/monthly_macd_strategy
+
+# Python cache
+__pycache__/
+stock_data_bfq/__pycache__/
+
+# PNG images
+*.png
+stock_data_bfq/*.png
+km_data/*.png

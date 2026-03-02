@@ -1,0 +1,17 @@
+Total data points: 4997
+Training data points: 2998 (first 60%)
+Testing data points: 1999 (last 40%)
+------------------------------
+Starting Optuna optimization on the training set...
+Optimization finished.
+------------------------------
+--- In-Sample Results (Training Set) ---
+Optimal parameters found: {'length0': 3, 'p1': 2, 'p2': 10, 'p3': 10}
+Profit on training set: 5159.87
+------------------------------
+--- Out-of-Sample Results (Test Set) ---
+Applying parameters {'length0': 3, 'p1': 2, 'p2': 10, 'p3': 10} to the test set.
+Profit on test set: 5963.00
+------------------------------
+Strategy chart saved to: c9888.DCE1d.strategy.png
+Cumulative PnL chart saved to: c9888.DCE1d.pnl.png

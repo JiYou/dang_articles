@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-周期股金字塔建仓策略回测 — 基于 backtrader + akshare
+周期股金字塔建仓策略回测 — 基于 backtrader + 本地不复权数据
 =====================================================
 
 用途：用历史数据验证金字塔建仓策略的表现，给你信心或暴露问题。
 定位：纯回测，不碰交易接口。你看信号，手动操作。
+数据：使用 stock_data_bfq/ 目录下的本地不复权 CSV 数据，完全离线运行。
 
-策略逻辑（来自 MR Dang 投资方案 + 用户金字塔）：
+策略逻辑（来自 MR Dang 投资方案 + 金字塔建仓）：
   - 第1层: 初始建仓 (总资金的 LAYER1_PCT)
   - 第2层: 从建仓价跌 DROP_TRIGGER_PCT，加仓 (LAYER2_PCT)
   - 第3层: 从建仓价跌 2×DROP_TRIGGER_PCT，加仓 (LAYER3_PCT)
@@ -17,7 +18,7 @@
   - 冷却: 止损后等 COOLDOWN_BARS 个交易日再允许重新建仓
 
 用法：
-  # 单只股票回测（默认紫金矿业，近3年）
+  # 单只股票回测（默认紫金矿业，全部数据）
   python cyclical_backtest.py
 
   # 指定股票和时间段
@@ -32,173 +33,98 @@
   # 出图（需要 matplotlib）
   python cyclical_backtest.py --stock 601899 --plot
 
+  # 扫描所有本地数据股票进行回测
+  python cyclical_backtest.py --scan --start 2020-01-01
+
+  # 扫描并按收益率排序，只显示 Top N
+  python cyclical_backtest.py --scan --top 20
+
 依赖：
-  pip install backtrader akshare pandas matplotlib
+  pip install backtrader pandas matplotlib
 """
 
 import argparse
 import os
 import sys
-import time
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Dict, List, Optional
 
 import backtrader as bt
 import backtrader.analyzers as btanalyzers
 import pandas as pd
+
 # ============================================================================
-# 数据缓存目录
+# 本地数据目录
 # ============================================================================
 
-CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".stock_cache")
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stock_data_bfq")
 
 
-def _cache_path(stock_code: str) -> str:
-    """返回某只股票的本地缓存文件路径"""
-    os.makedirs(CACHE_DIR, exist_ok=True)
-    return os.path.join(CACHE_DIR, f"{stock_code}.csv")
+def load_local_data(stock_code: str, start_date: str = None, end_date: str = None) -> Optional[pd.DataFrame]:
+    """
+    从 stock_data_bfq/ 目录加载本地不复权 CSV 数据。
 
+    CSV 格式: date,股票代码,open,close,high,low,volume,成交额,振幅,涨跌幅,涨跌额,换手率
 
-def _load_cache(stock_code: str) -> Optional[pd.DataFrame]:
-    """读取本地缓存，返回 DataFrame (index=date) 或 None"""
-    path = _cache_path(stock_code)
-    if not os.path.exists(path):
+    返回 backtrader 需要的 DataFrame (index=date, columns=open/high/low/close/volume/openinterest)
+    """
+    csv_path = os.path.join(DATA_DIR, f"{stock_code}.csv")
+    if not os.path.exists(csv_path):
+        print(f"  [错误] 本地数据不存在: {csv_path}")
         return None
+
     try:
-        df = pd.read_csv(path, parse_dates=["date"], index_col="date")
-        if df.empty:
-            return None
-        return df
-    except Exception:
+        df = pd.read_csv(csv_path, parse_dates=["date"])
+    except Exception as e:
+        print(f"  [错误] 读取 {csv_path} 失败: {e}")
         return None
 
-
-def _save_cache(stock_code: str, df: pd.DataFrame) -> None:
-    """把 DataFrame 写入本地缓存"""
-    path = _cache_path(stock_code)
-    df.to_csv(path)
-
-
-def _fetch_from_akshare(stock_code: str, start_date: str, end_date: str) -> Optional[pd.DataFrame]:
-    """从 akshare 拉取一段日线数据，返回标准格式 DataFrame (index=date)"""
-    import akshare as ak
-
-    sd = start_date.replace("-", "")
-    ed = end_date.replace("-", "")
-    df = ak.stock_zh_a_hist(
-        symbol=stock_code,
-        period="daily",
-        start_date=sd,
-        end_date=ed,
-        adjust="qfq",
-    )
-    if df is None or df.empty:
+    if df.empty:
+        print(f"  [警告] {stock_code} 数据文件为空")
         return None
 
-    # akshare 返回的列: 日期,开盘,收盘,最高,最低,成交量,成交额,振幅,涨跌幅,涨跌额,换手率
-    df.columns = ["date", "open", "close", "high", "low", "volume", "turnover",
-                  "amplitude", "pct_change", "change", "turnover_rate"]
-    df["date"] = pd.to_datetime(df["date"])
+    # 按日期排序
+    df.sort_values("date", inplace=True)
+
+    # 日期筛选
+    if start_date:
+        df = df[df["date"] >= pd.Timestamp(start_date)]
+    if end_date:
+        df = df[df["date"] <= pd.Timestamp(end_date)]
+
+    if df.empty:
+        print(f"  [警告] {stock_code} 在指定日期范围内无数据")
+        return None
+
+    # 设置日期为索引
     df.set_index("date", inplace=True)
 
+    # 提取 backtrader 需要的列（不复权价格直接用）
     result = df[["open", "high", "low", "close", "volume"]].copy()
     result["openinterest"] = 0
+
+    # 确保数值类型
+    for col in ["open", "high", "low", "close", "volume"]:
+        result[col] = pd.to_numeric(result[col], errors="coerce")
+    result.dropna(subset=["open", "high", "low", "close"], inplace=True)
+
+    if result.empty:
+        print(f"  [警告] {stock_code} 清洗后无有效数据")
+        return None
+
     return result
 
 
-# 限速：两次 akshare 请求之间的最小间隔（秒）
-_last_fetch_time = 0.0
-FETCH_INTERVAL = 1.5   # akshare 限速，保守设 1.5 秒
+def list_local_stocks() -> List[str]:
+    """列出所有有本地数据的股票代码"""
+    if not os.path.isdir(DATA_DIR):
+        return []
+    codes = []
+    for f in sorted(os.listdir(DATA_DIR)):
+        if f.endswith(".csv"):
+            codes.append(f.replace(".csv", ""))
+    return codes
 
-
-def _rate_limit():
-    """限速，避免 akshare 被封"""
-    global _last_fetch_time
-    now = time.time()
-    elapsed = now - _last_fetch_time
-    if elapsed < FETCH_INTERVAL:
-        wait = FETCH_INTERVAL - elapsed
-        print(f"  [限速] 等待 {wait:.1f}s ...")
-        time.sleep(wait)
-    _last_fetch_time = time.time()
-
-
-def fetch_akshare_data(stock_code: str, start_date: str, end_date: str) -> Optional[pd.DataFrame]:
-    """
-    从 akshare 获取 A 股日线数据（前复权），支持增量缓存。
-
-    逻辑：
-      1. 先读本地缓存
-      2. 如果缓存覆盖了 [start_date, end_date]，直接用
-      3. 否则只拉缺失的部分（增量），拼接后更新缓存
-      4. 每次网络请求前限速
-    """
-    target_start = pd.Timestamp(start_date)
-    target_end = pd.Timestamp(end_date)
-
-    cached = _load_cache(stock_code)
-
-    if cached is not None and not cached.empty:
-        cache_start = cached.index.min()
-        cache_end = cached.index.max()
-
-        # 情况 1: 缓存完全覆盖 → 直接切片返回
-        if cache_start <= target_start and cache_end >= target_end:
-            print(f"  [缓存] {stock_code} 完全命中 ({cache_start.date()} ~ {cache_end.date()})")
-            return cached.loc[target_start:target_end]
-
-        pieces = [cached]
-
-        # 情况 2: 前面缺数据
-        if target_start < cache_start:
-            gap_end = (cache_start - timedelta(days=1)).strftime("%Y-%m-%d")
-            print(f"  [增量] {stock_code} 补前段 {start_date} ~ {gap_end}")
-            _rate_limit()
-            try:
-                front = _fetch_from_akshare(stock_code, start_date, gap_end)
-                if front is not None and not front.empty:
-                    pieces.insert(0, front)
-            except Exception as e:
-                print(f"  [警告] {stock_code} 补前段失败: {e}")
-
-        # 情况 3: 后面缺数据
-        if target_end > cache_end:
-            gap_start = (cache_end + timedelta(days=1)).strftime("%Y-%m-%d")
-            print(f"  [增量] {stock_code} 补后段 {gap_start} ~ {end_date}")
-            _rate_limit()
-            try:
-                tail = _fetch_from_akshare(stock_code, gap_start, end_date)
-                if tail is not None and not tail.empty:
-                    pieces.append(tail)
-            except Exception as e:
-                print(f"  [警告] {stock_code} 补后段失败: {e}")
-
-        # 合并去重排序
-        merged = pd.concat(pieces)
-        merged = merged[~merged.index.duplicated(keep='last')]
-        merged.sort_index(inplace=True)
-
-        # 更新缓存
-        _save_cache(stock_code, merged)
-        result = merged.loc[target_start:target_end]
-        if result.empty:
-            print(f"  [警告] {stock_code} 在 {start_date} ~ {end_date} 无数据")
-            return None
-        return result
-
-    # 无缓存 → 全量拉取
-    print(f"  [拉取] {stock_code} 全量 {start_date} ~ {end_date}")
-    _rate_limit()
-    try:
-        df = _fetch_from_akshare(stock_code, start_date, end_date)
-        if df is None or df.empty:
-            print(f"  [警告] {stock_code} 在 {start_date} ~ {end_date} 无数据")
-            return None
-        _save_cache(stock_code, df)
-        return df
-    except Exception as e:
-        print(f"  [错误] 获取 {stock_code} 数据失败: {e}")
-        return None
 
 # ============================================================================
 # 金字塔建仓策略
@@ -211,6 +137,8 @@ class PyramidStrategy(bt.Strategy):
     原理：
       跌得越多，买得越多（前提是龙头 + 周期底部区域）
       涨到目标，分批止盈（这里简化为一次性止盈）
+
+    注意：使用不复权数据，价格是原始交易价格。
     """
 
     params = dict(
@@ -225,7 +153,7 @@ class PyramidStrategy(bt.Strategy):
 
         # 止盈止损（从持仓均价算）
         take_profit_pct=0.30,   # 盈利 30% 止盈
-        stop_loss_pct=0.20,     # 亏损 20% 止损
+        stop_loss_pct=0.99,     # 亏损 20% 止损
 
         # 冷却期: 止损后等多少个交易日才能重新建仓
         cooldown_bars=20,
@@ -247,6 +175,7 @@ class PyramidStrategy(bt.Strategy):
         self.avg_cost = 0          # 持仓均价
         self.total_invested = 0    # 累计投入金额
         self.total_shares = 0      # 累计持仓股数
+        self.last_invested = 0     # 上次平仓前的投入金额（用于计算收益率）
         self.cooldown_count = 0    # 冷却期计数器
 
         # 交易记录
@@ -287,7 +216,7 @@ class PyramidStrategy(bt.Strategy):
         if not trade.isclosed:
             return
 
-        pnl_pct = (trade.pnl / abs(trade.price * trade.size)) * 100 if trade.size != 0 else 0
+        pnl_pct = (trade.pnlcomm / self.last_invested) * 100 if self.last_invested > 0 else 0
         self.log(f"交易结束 毛利:{trade.pnl:.2f} 净利:{trade.pnlcomm:.2f} "
                  f"收益率:{pnl_pct:.1f}%", force=True)
 
@@ -311,6 +240,7 @@ class PyramidStrategy(bt.Strategy):
 
     def _reset_position_state(self):
         """重置仓位状态"""
+        self.last_invested = self.total_invested
         self.first_entry_price = 0
         self.current_layer = 0
         self.avg_cost = 0
@@ -629,8 +559,8 @@ DEFAULT_STOCKS = {
 def run_single_backtest(
     stock_code: str,
     stock_name: str,
-    start_date: str,
-    end_date: str,
+    start_date: str = None,
+    end_date: str = None,
     initial_cash: float = 100_000,
     drop_trigger: float = 0.10,
     take_profit: float = 0.30,
@@ -638,17 +568,19 @@ def run_single_backtest(
     do_plot: bool = False,
     printlog: bool = True,
 ) -> Optional[dict]:
-    """运行单只股票回测"""
+    """运行单只股票回测（使用本地不复权数据）"""
 
     print(f"\n{'='*60}")
     print(f"  回测: {stock_name} ({stock_code})")
-    print(f"  时段: {start_date} ~ {end_date}")
+    if start_date or end_date:
+        print(f"  时段: {start_date or '最早'} ~ {end_date or '最新'}")
     print(f"  初始资金: {initial_cash:,.0f} 元")
+    print(f"  数据类型: 不复权")
     print(f"  参数: 补仓跌幅={drop_trigger*100:.0f}% 止盈={take_profit*100:.0f}% 止损={stop_loss*100:.0f}%")
     print(f"{'='*60}")
 
-    # 获取数据
-    df = fetch_akshare_data(stock_code, start_date, end_date)
+    # 加载本地数据
+    df = load_local_data(stock_code, start_date, end_date)
     if df is None:
         return None
 
@@ -760,20 +692,22 @@ def run_single_backtest(
 
 
 def run_portfolio_backtest(
-    start_date: str,
-    end_date: str,
+    start_date: str = None,
+    end_date: str = None,
     initial_cash: float = 500_000,
     drop_trigger: float = 0.10,
     take_profit: float = 0.30,
     stop_loss: float = 0.20,
     do_plot: bool = False,
 ) -> Optional[dict]:
-    """运行多股票组合回测"""
+    """运行多股票组合回测（使用本地不复权数据）"""
 
     print(f"\n{'█'*60}")
     print(f"  组合回测: {len(DEFAULT_STOCKS)} 只周期龙头股")
-    print(f"  时段: {start_date} ~ {end_date}")
+    if start_date or end_date:
+        print(f"  时段: {start_date or '最早'} ~ {end_date or '最新'}")
     print(f"  初始资金: {initial_cash:,.0f} 元")
+    print(f"  数据类型: 不复权")
     print(f"{'█'*60}")
 
     cerebro = bt.Cerebro()
@@ -781,7 +715,7 @@ def run_portfolio_backtest(
     # 加载所有股票数据
     loaded = 0
     for code, name in DEFAULT_STOCKS.items():
-        df = fetch_akshare_data(code, start_date, end_date)
+        df = load_local_data(code, start_date, end_date)
         if df is not None and len(df) > 60:
             data_feed = bt.feeds.PandasData(dataname=df, name=name)
             cerebro.adddata(data_feed)
@@ -862,22 +796,111 @@ def run_portfolio_backtest(
     }
 
 
+def run_scan_backtest(
+    start_date: str = None,
+    end_date: str = None,
+    initial_cash: float = 100_000,
+    drop_trigger: float = 0.10,
+    take_profit: float = 0.30,
+    stop_loss: float = 0.20,
+    top_n: int = 0,
+) -> None:
+    """扫描所有本地数据股票进行回测，按收益率排序"""
+
+    all_codes = list_local_stocks()
+    print(f"\n{'█'*60}")
+    print(f"  全量扫描回测: 共 {len(all_codes)} 只股票")
+    if start_date or end_date:
+        print(f"  时段: {start_date or '最早'} ~ {end_date or '最新'}")
+    print(f"  初始资金: {initial_cash:,.0f} 元")
+    print(f"  数据类型: 不复权")
+    print(f"{'█'*60}\n")
+
+    results = []
+    skipped = 0
+    for i, code in enumerate(all_codes):
+        # 简单进度
+        if (i + 1) % 100 == 0 or i == 0:
+            print(f"  进度: {i+1}/{len(all_codes)} ...")
+
+        name = DEFAULT_STOCKS.get(code, code)
+        r = run_single_backtest(
+            stock_code=code,
+            stock_name=name,
+            start_date=start_date,
+            end_date=end_date,
+            initial_cash=initial_cash,
+            drop_trigger=drop_trigger,
+            take_profit=take_profit,
+            stop_loss=stop_loss,
+            printlog=False,  # 扫描模式静默
+        )
+        if r:
+            results.append(r)
+        else:
+            skipped += 1
+
+    # 按总收益率排序
+    results.sort(key=lambda x: x["total_return"], reverse=True)
+
+    # 显示结果
+    if top_n > 0:
+        display = results[:top_n]
+        title = f"扫描结果 Top {top_n} (共 {len(results)} 只有效)"
+    else:
+        display = results
+        title = f"扫描结果 (共 {len(results)} 只有效, {skipped} 只跳过)"
+
+    print(f"\n{'█'*60}")
+    print(f"  {title}")
+    print(f"{'█'*60}")
+    print(f"  {'股票':<12} {'代码':<8} {'总收益%':>8} {'年化%':>8} {'回撤%':>8} {'夏普':>6} {'交易数':>6} {'胜率%':>6}")
+    print(f"  {'-'*62}")
+    for r in display:
+        sharpe = f"{r['sharpe_ratio']:.2f}" if r['sharpe_ratio'] else "N/A"
+        print(f"  {r['stock_name']:<12} {r['stock_code']:<8} {r['total_return']:>+7.1f} "
+              f"{r['annual_return']:>+7.1f} {r['max_drawdown']:>7.1f} {sharpe:>6} "
+              f"{r['total_trades']:>6} {r['win_rate']:>5.1f}")
+    print(f"{'█'*60}\n")
+
+    # 统计摘要
+    if results:
+        avg_return = sum(r["total_return"] for r in results) / len(results)
+        positive = sum(1 for r in results if r["total_return"] > 0)
+        negative = sum(1 for r in results if r["total_return"] < 0)
+        zero = sum(1 for r in results if r["total_return"] == 0 and r["total_trades"] == 0)
+        print(f"  📊 统计摘要:")
+        print(f"     平均收益率: {avg_return:+.2f}%")
+        print(f"     盈利股票: {positive} 只  亏损股票: {negative} 只  无交易: {zero} 只")
+        if results:
+            print(f"     最佳: {results[0]['stock_name']}({results[0]['stock_code']}) {results[0]['total_return']:+.1f}%")
+            print(f"     最差: {results[-1]['stock_name']}({results[-1]['stock_code']}) {results[-1]['total_return']:+.1f}%")
+        print()
+
+
 # ============================================================================
 # CLI
 # ============================================================================
 
 def main():
     parser = argparse.ArgumentParser(
-        description="周期股金字塔建仓策略回测 — backtrader + akshare",
+        description="周期股金字塔建仓策略回测 — 本地不复权数据 (离线版)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-  %(prog)s                                              # 默认: 紫金矿业近3年
+  %(prog)s                                              # 默认: 紫金矿业全部数据
   %(prog)s --stock 601919 --start 2020-01-01            # 中远海控
   %(prog)s --portfolio --start 2021-01-01               # 9只股票组合回测
   %(prog)s --stock 601899 --drop 0.08 --profit 0.25     # 调参数
   %(prog)s --stock 601899 --plot                        # 出图
-  %(prog)s --all                                        # 逐只回测所有股票
+  %(prog)s --all                                        # 逐只回测默认9只龙头股
+  %(prog)s --scan --start 2020-01-01                    # 扫描所有本地数据股票
+  %(prog)s --scan --top 20                              # 扫描并只显示 Top 20
+  %(prog)s --list                                       # 列出所有有本地数据的股票
+
+数据说明:
+  使用 stock_data_bfq/ 目录下的不复权 CSV 数据，完全离线运行。
+  不依赖 akshare，不需要网络连接。
 
 策略说明:
   金字塔建仓: 第1层(10%) → 跌10%加第2层(15%) → 再跌10%加第3层(25%) → 再跌10%满仓(30%)
@@ -886,28 +909,48 @@ def main():
         """,
     )
     parser.add_argument("--stock", type=str, default="601899", help="股票代码 (默认: 601899 紫金矿业)")
-    parser.add_argument("--start", type=str, default=None, help="回测开始日期 (默认: 3年前)")
-    parser.add_argument("--end", type=str, default=None, help="回测结束日期 (默认: 今天)")
+    parser.add_argument("--start", type=str, default=None, help="回测开始日期 (默认: 全部数据)")
+    parser.add_argument("--end", type=str, default=None, help="回测结束日期 (默认: 全部数据)")
     parser.add_argument("--cash", type=float, default=100_000, help="初始资金 (默认: 100000)")
     parser.add_argument("--drop", type=float, default=0.10, help="补仓触发跌幅 (默认: 0.10)")
     parser.add_argument("--profit", type=float, default=0.30, help="止盈线 (默认: 0.30)")
     parser.add_argument("--loss", type=float, default=0.20, help="止损线 (默认: 0.20)")
     parser.add_argument("--plot", action="store_true", help="输出图表")
     parser.add_argument("--portfolio", action="store_true", help="多股票组合回测")
-    parser.add_argument("--all", action="store_true", help="逐只回测所有股票")
+    parser.add_argument("--all", action="store_true", help="逐只回测所有默认股票")
+    parser.add_argument("--scan", action="store_true", help="扫描所有本地数据股票进行回测")
+    parser.add_argument("--top", type=int, default=0, help="扫描模式下只显示收益率 Top N")
+    parser.add_argument("--list", action="store_true", help="列出所有有本地数据的股票代码")
     parser.add_argument("--quiet", action="store_true", help="安静模式（不打印交易日志）")
 
     args = parser.parse_args()
 
-    # 默认时间段
-    if args.end is None:
-        args.end = datetime.now().strftime("%Y-%m-%d")
-    if args.start is None:
-        args.start = (datetime.now() - timedelta(days=365 * 3)).strftime("%Y-%m-%d")
-
     printlog = not args.quiet
 
-    if args.portfolio:
+    if args.list:
+        # 列出所有本地数据股票
+        codes = list_local_stocks()
+        print(f"\n本地数据目录: {DATA_DIR}")
+        print(f"共 {len(codes)} 只股票:\n")
+        for i, code in enumerate(codes):
+            name = DEFAULT_STOCKS.get(code, "")
+            label = f"  {code}" + (f"  {name}" if name else "")
+            print(label)
+        print()
+
+    elif args.scan:
+        # 全量扫描回测
+        run_scan_backtest(
+            start_date=args.start,
+            end_date=args.end,
+            initial_cash=args.cash,
+            drop_trigger=args.drop,
+            take_profit=args.profit,
+            stop_loss=args.loss,
+            top_n=args.top,
+        )
+
+    elif args.portfolio:
         # 组合回测
         run_portfolio_backtest(
             start_date=args.start,
@@ -920,7 +963,7 @@ def main():
         )
 
     elif args.all:
-        # 逐只回测
+        # 逐只回测默认股票
         results = []
         for code, name in DEFAULT_STOCKS.items():
             r = run_single_backtest(
