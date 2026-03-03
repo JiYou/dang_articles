@@ -1,0 +1,7212 @@
+{
+  "159998": {
+    "name": "计算机ETF",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159997": {
+    "name": "电子ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159996": {
+    "name": "家电ETF",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "159995": {
+    "name": "芯片ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159994": {
+    "name": "通信ETF银华",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "159993": {
+    "name": "证券ETF鹏华",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "159992": {
+    "name": "创新药ETF",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "159991": {
+    "name": "创业板大盘ETF招商",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159985": {
+    "name": "豆粕ETF",
+    "category": "商品-豆粕",
+    "sector": "商品"
+  },
+  "159982": {
+    "name": "中证500ETF鹏华",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159981": {
+    "name": "能源化工ETF建信",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "159980": {
+    "name": "有色ETF大成",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159977": {
+    "name": "创业板ETF天弘",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159976": {
+    "name": "湾创ETF工银",
+    "category": "区域-粤港澳",
+    "sector": "区域"
+  },
+  "159975": {
+    "name": "深100ETF招商",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159974": {
+    "name": "央企创新ETF富国",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "159973": {
+    "name": "民企ETF弘毅远方",
+    "category": "风格-民企",
+    "sector": "风格"
+  },
+  "159972": {
+    "name": "5年地债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159971": {
+    "name": "创业板ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159970": {
+    "name": "深100ETF工银",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159969": {
+    "name": "深100ETF银华",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159968": {
+    "name": "中证500ETF博时",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159967": {
+    "name": "创业板成长ETF",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159966": {
+    "name": "创业板价值ETF",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159965": {
+    "name": "央视50ETF国联",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  },
+  "159964": {
+    "name": "创业板ETF平安",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159961": {
+    "name": "深100ETF方正富邦",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159960": {
+    "name": "恒生中国企业ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159959": {
+    "name": "央企ETF银华",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "159958": {
+    "name": "创业板ETF工银",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159957": {
+    "name": "创业板ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159956": {
+    "name": "创业板ETF建信",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159954": {
+    "name": "恒生中国企业ETF南方",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159952": {
+    "name": "创业板ETF广发",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159949": {
+    "name": "创业板50ETF",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159948": {
+    "name": "创业板ETF南方",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159945": {
+    "name": "能源ETF广发",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "159944": {
+    "name": "材料ETF",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "159943": {
+    "name": "深证成指ETF大成",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159941": {
+    "name": "纳指ETF",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159940": {
+    "name": "金融地产ETF",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "159939": {
+    "name": "信息技术ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159938": {
+    "name": "医药ETF广发",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "159937": {
+    "name": "黄金ETF博时",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159936": {
+    "name": "可选消费ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159935": {
+    "name": "中证500ETF景顺",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159934": {
+    "name": "黄金ETF易方达",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159933": {
+    "name": "金融地产ETF国投瑞银",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "159931": {
+    "name": "金融ETF",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "159930": {
+    "name": "能源ETF",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "159929": {
+    "name": "医药ETF",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "159928": {
+    "name": "消费ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159925": {
+    "name": "沪深300ETF南方",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159923": {
+    "name": "中证A100ETF大成",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "159922": {
+    "name": "中证500ETF嘉实",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159920": {
+    "name": "恒生ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159919": {
+    "name": "沪深300ETF嘉实",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159918": {
+    "name": "中创400ETF嘉实",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  },
+  "159916": {
+    "name": "基本面ETF建信",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "159915": {
+    "name": "创业板ETF易方达",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159913": {
+    "name": "深价值ETF交银",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "159912": {
+    "name": "深300ETF汇添富",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159910": {
+    "name": "基本面120ETF嘉实",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "159909": {
+    "name": "TMT50ETF招商",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159908": {
+    "name": "创业板ETF博时",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159907": {
+    "name": "2000ETF",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159906": {
+    "name": "深成长ETF大成",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159905": {
+    "name": "红利ETF工银",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159903": {
+    "name": "深成ETF南方",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159902": {
+    "name": "中小100ETF华夏",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  },
+  "159901": {
+    "name": "深证100ETF易方达",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159899": {
+    "name": "软件ETF招商",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159898": {
+    "name": "医疗器械ETF招商",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159896": {
+    "name": "物联网ETF南方",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "159895": {
+    "name": "物联网ETF易方达",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "159892": {
+    "name": "恒生医药ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159891": {
+    "name": "医疗ETF建信",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159890": {
+    "name": "云计算ETF",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159889": {
+    "name": "智能汽车ETF",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "159888": {
+    "name": "智能汽车ETF华夏",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "159887": {
+    "name": "银行ETF",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "159886": {
+    "name": "机械ETF富国",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "159885": {
+    "name": "碳中和ETF鹏华",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159883": {
+    "name": "医疗器械ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159881": {
+    "name": "有色金属ETF国泰",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159880": {
+    "name": "有色ETF鹏华",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159877": {
+    "name": "医疗ETF南方",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159876": {
+    "name": "有色ETF华宝",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159875": {
+    "name": "新能源ETF嘉实",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159873": {
+    "name": "医疗设备ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159872": {
+    "name": "智能网联汽车ETF",
+    "category": "行业-汽车",
+    "sector": "行业"
+  },
+  "159871": {
+    "name": "有色ETF银华",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159870": {
+    "name": "化工ETF",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "159869": {
+    "name": "游戏ETF",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "159867": {
+    "name": "畜牧ETF",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159866": {
+    "name": "日经ETF工银",
+    "category": "日本",
+    "sector": "日本"
+  },
+  "159865": {
+    "name": "养殖ETF",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159864": {
+    "name": "光伏ETF国泰",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "159863": {
+    "name": "光伏ETF鹏华",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "159862": {
+    "name": "食品饮料ETF银华",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "159861": {
+    "name": "碳中和50ETF国泰",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159859": {
+    "name": "生物医药ETF",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "159858": {
+    "name": "创新药ETF南方",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "159857": {
+    "name": "光伏ETF",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "159856": {
+    "name": "互联网龙头ETF工银",
+    "category": "行业-互联网",
+    "sector": "行业"
+  },
+  "159855": {
+    "name": "影视ETF",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "159852": {
+    "name": "软件ETF",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159851": {
+    "name": "金融科技ETF",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "159850": {
+    "name": "恒生国企ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159849": {
+    "name": "生物科技ETF招商",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "159848": {
+    "name": "证券ETF国联安",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "159847": {
+    "name": "医疗ETF易方达",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159845": {
+    "name": "中证1000ETF",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159843": {
+    "name": "食品饮料ETF",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "159842": {
+    "name": "券商ETF",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "159841": {
+    "name": "证券ETF",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "159840": {
+    "name": "锂电池ETF工银",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159839": {
+    "name": "生物医药ETF汇添富",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "159838": {
+    "name": "医药50ETF博时",
+    "category": "行业-医药",
+    "sector": "行业"
+  },
+  "159837": {
+    "name": "生物科技ETF易方达",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "159836": {
+    "name": "创业板300ETF天弘",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159835": {
+    "name": "创新药ETF建信",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "159834": {
+    "name": "金ETF南方",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159831": {
+    "name": "金ETF嘉实",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159830": {
+    "name": "上海金ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159828": {
+    "name": "医疗ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159827": {
+    "name": "农业ETF银华",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159825": {
+    "name": "农业ETF",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159824": {
+    "name": "新能源车ETF博时",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "159822": {
+    "name": "新经济ETF银华",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159821": {
+    "name": "创业板ETF中银证券",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159820": {
+    "name": "中证500ETF天弘",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159819": {
+    "name": "人工智能ETF易方达",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159816": {
+    "name": "0-4地债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159814": {
+    "name": "创业大盘ETF西部利得",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159813": {
+    "name": "半导体ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159812": {
+    "name": "黄金ETF前海开源",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159811": {
+    "name": "5GETF博时",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "159810": {
+    "name": "创业板ETF浦银",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159808": {
+    "name": "创100ETF融通",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159807": {
+    "name": "科技ETF易方达",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159806": {
+    "name": "新能源车ETF",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "159805": {
+    "name": "传媒ETF",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "159804": {
+    "name": "创中盘88ETF国寿",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159801": {
+    "name": "芯片ETF广发",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159800": {
+    "name": "中证800ETF鹏华",
+    "category": "宽基-中证800",
+    "sector": "宽基"
+  },
+  "159798": {
+    "name": "消费ETF易方达",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159797": {
+    "name": "医疗器械ETF汇添富",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159796": {
+    "name": "电池ETF汇添富",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159795": {
+    "name": "智能汽车ETF汇添富",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "159793": {
+    "name": "线上消费ETF基金",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159792": {
+    "name": "港股通互联网ETF",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "159791": {
+    "name": "300ESGETF华夏",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "159790": {
+    "name": "碳中和ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159788": {
+    "name": "港股通100ETF易方达",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159787": {
+    "name": "建材ETF易方达",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "159786": {
+    "name": "VRETF",
+    "category": "行业-VR",
+    "sector": "行业"
+  },
+  "159783": {
+    "name": "科创创业50ETF",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "159782": {
+    "name": "双创50ETF",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159781": {
+    "name": "科创创业ETF易方达",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "159780": {
+    "name": "科创创业50ETF南方",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "159779": {
+    "name": "消费电子50ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159778": {
+    "name": "工业互联网ETF鹏华",
+    "category": "行业-互联网",
+    "sector": "行业"
+  },
+  "159777": {
+    "name": "创科技ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159776": {
+    "name": "港股医药ETF银华",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159775": {
+    "name": "电池ETF建信",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159773": {
+    "name": "创业板科技ETF华泰柏瑞",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159770": {
+    "name": "机器人ETF",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159768": {
+    "name": "房地产ETF银华",
+    "category": "行业-房地产",
+    "sector": "行业"
+  },
+  "159767": {
+    "name": "电池龙头ETF",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159766": {
+    "name": "旅游ETF",
+    "category": "行业-旅游",
+    "sector": "行业"
+  },
+  "159763": {
+    "name": "新材料ETF建信",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "159761": {
+    "name": "新材料ETF国泰",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "159760": {
+    "name": "医疗健康ETF泰康",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "159758": {
+    "name": "红利质量ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159757": {
+    "name": "电池ETF景顺",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159755": {
+    "name": "电池ETF",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159752": {
+    "name": "新能源ETF申万菱信",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159751": {
+    "name": "港股通科技ETF鹏华",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159750": {
+    "name": "港股科技50ETF招商",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159748": {
+    "name": "创新药ETF富国",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "159747": {
+    "name": "香港科技ETF南方",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159745": {
+    "name": "建材ETF",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "159743": {
+    "name": "湖北ETF博时",
+    "category": "区域-其他",
+    "sector": "区域"
+  },
+  "159742": {
+    "name": "恒生科技ETF博时",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159741": {
+    "name": "恒生科技ETF嘉实",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159740": {
+    "name": "恒生科技ETF大成",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159739": {
+    "name": "云计算ETF鹏华",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159738": {
+    "name": "云计算ETF华泰柏瑞",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159736": {
+    "name": "食品饮料ETF天弘",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "159735": {
+    "name": "港股消费ETF银华",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159732": {
+    "name": "消费电子ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159731": {
+    "name": "石化ETF",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "159730": {
+    "name": "家电ETF博时",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "159729": {
+    "name": "互联网ETF汇添富",
+    "category": "行业-互联网",
+    "sector": "行业"
+  },
+  "159728": {
+    "name": "在线消费ETF南方",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159726": {
+    "name": "港股通高股息ETF华夏",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159725": {
+    "name": "线上消费ETF工银",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159723": {
+    "name": "科技龙头ETF汇添富",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159721": {
+    "name": "深证100ETF永赢",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159720": {
+    "name": "智能车ETF泰康",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159719": {
+    "name": "国企共赢ETF",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "159718": {
+    "name": "港股医药ETF",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159717": {
+    "name": "ESGETF",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "159716": {
+    "name": "深证100ETF华宝",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159715": {
+    "name": "稀土ETF易方达",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "159713": {
+    "name": "稀土ETF",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "159712": {
+    "name": "港股通50ETF国泰",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159711": {
+    "name": "港股通50ETF华夏",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159709": {
+    "name": "物联网ETF工银",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "159708": {
+    "name": "红利ETF西部利得",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159707": {
+    "name": "地产ETF",
+    "category": "行业-房地产",
+    "sector": "行业"
+  },
+  "159706": {
+    "name": "深证100ETF华安",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159703": {
+    "name": "新材料ETF",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "159701": {
+    "name": "物联网ETF招商",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "159700": {
+    "name": "科创债ETF南方",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159699": {
+    "name": "恒生消费ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159698": {
+    "name": "粮食ETF",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "159697": {
+    "name": "石油ETF鹏华",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "159696": {
+    "name": "纳指ETF易方达",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159695": {
+    "name": "通信ETF嘉实",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "159692": {
+    "name": "证券ETF东财",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "159691": {
+    "name": "港股红利ETF工银",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159690": {
+    "name": "有色矿业ETF招商",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159689": {
+    "name": "消费ETF南方",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159688": {
+    "name": "恒生互联网ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159687": {
+    "name": "亚太精选ETF南方",
+    "category": "亚太",
+    "sector": "亚太"
+  },
+  "159686": {
+    "name": "A100ETF易方达",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "159685": {
+    "name": "1000增强ETF天弘",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159682": {
+    "name": "创业板50ETF景顺",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159681": {
+    "name": "创50ETF",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159680": {
+    "name": "中证1000增强ETF招商",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159679": {
+    "name": "中证1000增强ETF国泰",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159678": {
+    "name": "500增强ETF博时",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159677": {
+    "name": "中证1000增强ETF银华",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159676": {
+    "name": "创业板增强ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159675": {
+    "name": "创业板增强ETF嘉实",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159673": {
+    "name": "沪深300ETF鹏华",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159672": {
+    "name": "消费ETF博时",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159671": {
+    "name": "稀有金属ETF工银",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "159670": {
+    "name": "消费50ETF国联安",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159669": {
+    "name": "绿色电力ETF国泰",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159667": {
+    "name": "工业母机ETF",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "159666": {
+    "name": "交通运输ETF",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159665": {
+    "name": "半导体龙头ETF工银",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159663": {
+    "name": "机床ETF",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "159662": {
+    "name": "交运ETF南方",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159661": {
+    "name": "A100ETF嘉实",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "159660": {
+    "name": "纳指ETF汇添富",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159659": {
+    "name": "纳斯达克100ETF",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159658": {
+    "name": "数字经济ETF",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "159657": {
+    "name": "疫苗ETF鹏华",
+    "category": "行业-疫苗",
+    "sector": "行业"
+  },
+  "159656": {
+    "name": "沪深300成长ETF万家",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "159655": {
+    "name": "标普ETF",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "159653": {
+    "name": "ESG300ETF",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159652": {
+    "name": "有色ETF汇添富",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159651": {
+    "name": "国开债券ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159650": {
+    "name": "国开债ETF博时",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159649": {
+    "name": "国开债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159647": {
+    "name": "中药ETF",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "159645": {
+    "name": "疫苗ETF富国",
+    "category": "行业-疫苗",
+    "sector": "行业"
+  },
+  "159643": {
+    "name": "疫苗ETF",
+    "category": "行业-疫苗",
+    "sector": "行业"
+  },
+  "159642": {
+    "name": "碳中和ETF大成",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159641": {
+    "name": "碳中和ETF招商",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159640": {
+    "name": "碳中和龙头ETF工银",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159639": {
+    "name": "碳中和ETF南方",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159638": {
+    "name": "高端装备ETF嘉实",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "159637": {
+    "name": "新能源车ETF东财",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "159636": {
+    "name": "港股通科技30ETF工银",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159635": {
+    "name": "基建ETF华夏",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "159633": {
+    "name": "中证1000ETF易方达",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159632": {
+    "name": "纳斯达克ETF",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159631": {
+    "name": "A100ETF招商",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "159630": {
+    "name": "A100ETF汇添富",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "159629": {
+    "name": "1000ETF",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "159628": {
+    "name": "国证2000ETF万家",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159627": {
+    "name": "A100ETF华夏",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "159625": {
+    "name": "绿色电力ETF嘉实",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "159623": {
+    "name": "成渝经济圈ETF博时",
+    "category": "区域-粤港澳",
+    "sector": "区域"
+  },
+  "159622": {
+    "name": "创新药ETF东财",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "159621": {
+    "name": "ESGETF国泰",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "159620": {
+    "name": "中证500成长ETF华夏",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159619": {
+    "name": "基建ETF",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "159618": {
+    "name": "光伏ETF指数基金",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "159617": {
+    "name": "中证500价值ETF华夏",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159616": {
+    "name": "农牧ETF建信",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159615": {
+    "name": "恒生生物科技ETF南方",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159613": {
+    "name": "信息安全ETF嘉实",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "159612": {
+    "name": "标普500ETF",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "159611": {
+    "name": "电力ETF",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159610": {
+    "name": "500ETF增强",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159609": {
+    "name": "光伏ETF浦银",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "159608": {
+    "name": "稀有金属ETF",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "159607": {
+    "name": "中概互联网ETF嘉实",
+    "category": "中概互联",
+    "sector": "中概互联"
+  },
+  "159606": {
+    "name": "中证500成长ETF易方达",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159605": {
+    "name": "中概互联ETF",
+    "category": "中概互联",
+    "sector": "中概互联"
+  },
+  "159603": {
+    "name": "双创龙头ETF",
+    "category": "宽基-双创",
+    "sector": "宽基"
+  },
+  "159602": {
+    "name": "中国A50ETF南方",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159601": {
+    "name": "A50ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159600": {
+    "name": "科创债ETF嘉实",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159599": {
+    "name": "芯片ETF东财",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159597": {
+    "name": "创业板成长ETF易方达",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159596": {
+    "name": "A50ETF华宝",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159595": {
+    "name": "中证A50ETF大成",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159593": {
+    "name": "中证A50指数ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159592": {
+    "name": "A50ETF基金",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159591": {
+    "name": "中证A50ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159590": {
+    "name": "软件ETF汇添富",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159589": {
+    "name": "红利ETF广发",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159588": {
+    "name": "石油天然气ETF",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "159587": {
+    "name": "粮食ETF广发",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "159586": {
+    "name": "计算机ETF南方",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159583": {
+    "name": "通信设备ETF",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "159582": {
+    "name": "半导体ETF博时",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159581": {
+    "name": "红利ETF万家",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159578": {
+    "name": "深证主板50ETF南方",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159577": {
+    "name": "美国50ETF汇添富",
+    "category": "美股-其他",
+    "sector": "美股"
+  },
+  "159576": {
+    "name": "深证100ETF广发",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159575": {
+    "name": "创业板200ETF银华",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159573": {
+    "name": "创业板200ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159572": {
+    "name": "创业板200ETF易方达",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159571": {
+    "name": "创业板200ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159570": {
+    "name": "港股通创新药ETF",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159569": {
+    "name": "港股红利低波ETF",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159568": {
+    "name": "港股互联网ETF博时",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "159567": {
+    "name": "港股创新药ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159566": {
+    "name": "储能电池ETF易方达",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159565": {
+    "name": "汽车零部件ETF易方达",
+    "category": "行业-汽车",
+    "sector": "行业"
+  },
+  "159563": {
+    "name": "创业板综ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159562": {
+    "name": "黄金股ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159561": {
+    "name": "德国ETF嘉实",
+    "category": "德国",
+    "sector": "德国"
+  },
+  "159560": {
+    "name": "芯片ETF景顺",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159559": {
+    "name": "机器人50ETF",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159558": {
+    "name": "半导体设备ETF易方达",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159557": {
+    "name": "恒生医疗ETF嘉实",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159556": {
+    "name": "中证2000ETF增强",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159555": {
+    "name": "中证2000增强ETF银华",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159553": {
+    "name": "中证2000增强ETF海富通",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159552": {
+    "name": "中证2000增强ETF招商",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159551": {
+    "name": "机器人ETF国泰",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159550": {
+    "name": "互联网ETF东财",
+    "category": "行业-互联网",
+    "sector": "行业"
+  },
+  "159549": {
+    "name": "红利低波ETF天弘",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159547": {
+    "name": "红利低波ETF华夏",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159546": {
+    "name": "集成电路ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159545": {
+    "name": "恒生红利低波ETF易方达",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159543": {
+    "name": "国证2000ETF工银",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159542": {
+    "name": "工程机械ETF大成",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "159541": {
+    "name": "创业板综ETF万家",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159540": {
+    "name": "信创ETF易方达",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "159539": {
+    "name": "信创ETF广发",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "159538": {
+    "name": "信创ETF富国",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "159537": {
+    "name": "信创ETF",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "159536": {
+    "name": "中证2000ETF汇添富",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159535": {
+    "name": "中证2000ETF嘉实",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159533": {
+    "name": "中证2000ETF博时",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159532": {
+    "name": "中证2000ETF易方达",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159531": {
+    "name": "中证2000ETF",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159530": {
+    "name": "机器人ETF易方达",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159529": {
+    "name": "标普消费ETF",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "159528": {
+    "name": "国企改革ETF富国",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "159527": {
+    "name": "云计算ETF广发",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159526": {
+    "name": "机器人ETF嘉实",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159525": {
+    "name": "红利低波ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159523": {
+    "name": "沪深300成长ETF华夏",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "159521": {
+    "name": "国证2000ETF指数基金",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159520": {
+    "name": "消费龙头ETF工银",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "159519": {
+    "name": "港股国企ETF国泰",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159518": {
+    "name": "标普油气ETF嘉实",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "159517": {
+    "name": "中证800增强ETF银华",
+    "category": "宽基-中证800",
+    "sector": "宽基"
+  },
+  "159516": {
+    "name": "半导体设备ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159515": {
+    "name": "国企红利ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159513": {
+    "name": "纳斯达克100ETF大成",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159512": {
+    "name": "汽车ETF",
+    "category": "行业-汽车",
+    "sector": "行业"
+  },
+  "159511": {
+    "name": "通信ETF南方",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "159510": {
+    "name": "沪深300价值ETF",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "159509": {
+    "name": "纳指科技ETF景顺",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159508": {
+    "name": "生物医药ETF基金",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "159507": {
+    "name": "通信ETF广发",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "159506": {
+    "name": "港股通医疗ETF富国",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159505": {
+    "name": "国证2000ETF博时",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "159502": {
+    "name": "标普生物科技ETF嘉实",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "159501": {
+    "name": "纳指ETF嘉实",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "159500": {
+    "name": "500ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159400": {
+    "name": "科创债ETF景顺",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159399": {
+    "name": "现金流ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159398": {
+    "name": "信用债ETF天弘",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159397": {
+    "name": "信用债ETF广发",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159396": {
+    "name": "信用债ETF博时",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159395": {
+    "name": "信用债ETF大成",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159393": {
+    "name": "沪深300ETF万家",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159392": {
+    "name": "航空ETF",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159391": {
+    "name": "大盘价值ETF博时",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "159390": {
+    "name": "中证A50ETF国联",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159389": {
+    "name": "数字经济ETF嘉实",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "159388": {
+    "name": "创业板人工智能ETF国泰",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159387": {
+    "name": "创业板新能源ETF国泰",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159386": {
+    "name": "A500ETF永赢",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159385": {
+    "name": "数字经济ETF富国",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "159383": {
+    "name": "创业板50ETF华泰柏瑞",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159382": {
+    "name": "创业板人工智能ETF南方",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159381": {
+    "name": "创业板人工智能ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159380": {
+    "name": "A500ETF东财",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159379": {
+    "name": "A500ETF融通",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159378": {
+    "name": "通用航空ETF",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159377": {
+    "name": "创业板医药ETF国泰",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159376": {
+    "name": "A500ETF浦银",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159375": {
+    "name": "创业板50ETF国泰",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159373": {
+    "name": "创业板50ETF嘉实",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159372": {
+    "name": "创业板50ETF万家",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159371": {
+    "name": "创业板50ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159370": {
+    "name": "创50ETF工银",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159369": {
+    "name": "创业板50ETF易方达",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159368": {
+    "name": "创业板新能源ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159367": {
+    "name": "创业板50ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159366": {
+    "name": "港股医疗ETF永赢",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159365": {
+    "name": "恒指ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159363": {
+    "name": "创业板人工智能ETF华宝",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159362": {
+    "name": "A500ETF工银",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159361": {
+    "name": "A500ETF易方达",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159360": {
+    "name": "中证A500ETF天弘",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159359": {
+    "name": "A500指数ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159358": {
+    "name": "中证A500ETF大成",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159357": {
+    "name": "A500ETF博时",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159356": {
+    "name": "A500ETF万家",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159355": {
+    "name": "800红利低波ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159353": {
+    "name": "中证A500ETF景顺",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159352": {
+    "name": "A500ETF南方",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159351": {
+    "name": "A500ETF嘉实",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159350": {
+    "name": "深证50ETF富国",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159339": {
+    "name": "A500ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159338": {
+    "name": "中证A500ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159337": {
+    "name": "中证500ETF东财",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "159336": {
+    "name": "央企红利ETF融通",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159335": {
+    "name": "央企科创ETF融通",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "159333": {
+    "name": "港股央企红利ETF万家",
+    "category": "港股-央企",
+    "sector": "港股"
+  },
+  "159332": {
+    "name": "央企红利ETF富国",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159331": {
+    "name": "红利港股ETF国泰",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159330": {
+    "name": "沪深300ETF东财",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159329": {
+    "name": "沙特ETF南方",
+    "category": "沙特",
+    "sector": "沙特"
+  },
+  "159328": {
+    "name": "家电ETF易方达",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "159327": {
+    "name": "半导体设备ETF万家",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159326": {
+    "name": "电网设备ETF",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159325": {
+    "name": "半导体ETF南方",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159323": {
+    "name": "港股通汽车ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159322": {
+    "name": "黄金股票ETF基金",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159321": {
+    "name": "黄金股票ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159320": {
+    "name": "电网设备ETF广发",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159318": {
+    "name": "恒指港股通ETF银华",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159316": {
+    "name": "港股通创新药ETF易方达",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159315": {
+    "name": "黄金股ETF工银",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "159312": {
+    "name": "恒指港股通ETF广发",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159311": {
+    "name": "数字经济ETF易方达",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "159310": {
+    "name": "芯片ETF天弘",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "159309": {
+    "name": "油气ETF汇添富",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "159307": {
+    "name": "红利低波100ETF博时",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159306": {
+    "name": "汽车零件ETF",
+    "category": "行业-汽车",
+    "sector": "行业"
+  },
+  "159305": {
+    "name": "储能电池ETF广发",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159303": {
+    "name": "恒生医疗ETF大成",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159302": {
+    "name": "港股高股息ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159301": {
+    "name": "公用事业ETF",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159300": {
+    "name": "300ETF",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159299": {
+    "name": "金融科技ETF易方达",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "159298": {
+    "name": "创业板50ETF大成",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159297": {
+    "name": "港股通创新药ETF南方",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159296": {
+    "name": "A500红利低波ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159295": {
+    "name": "创业综指ETF西部利得",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159293": {
+    "name": "创业板综增强ETF建信",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159292": {
+    "name": "创业板综增强ETF华宝",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159291": {
+    "name": "创业板综增强ETF招商",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159290": {
+    "name": "创业板综指增强ETF东财",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159289": {
+    "name": "创业板综指ETF鹏华",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159288": {
+    "name": "创业板综ETF银华",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159287": {
+    "name": "创业板综ETF博时",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159286": {
+    "name": "港股通创新药ETF鹏华",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159285": {
+    "name": "港股通消费ETF华安",
+    "category": "港股-消费",
+    "sector": "港股"
+  },
+  "159283": {
+    "name": "通用航空ETF南方",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159281": {
+    "name": "港股通央企红利ETF天弘",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159280": {
+    "name": "港股通互联网ETF汇添富",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "159279": {
+    "name": "创业板人工智能ETF华安",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159278": {
+    "name": "机器人ETF鹏华",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159277": {
+    "name": "港股通红利ETF富国",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159276": {
+    "name": "现金流ETF汇添富",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159275": {
+    "name": "农牧渔ETF",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159273": {
+    "name": "云计算ETF汇添富",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159272": {
+    "name": "机器人ETF富国",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159271": {
+    "name": "恒生ETF鹏华",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159270": {
+    "name": "创业板200ETF南方",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159269": {
+    "name": "港股通科技ETF南方",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159268": {
+    "name": "港股通消费ETF汇添富",
+    "category": "港股-消费",
+    "sector": "港股"
+  },
+  "159267": {
+    "name": "航天ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "159266": {
+    "name": "港股通央企红利ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159265": {
+    "name": "港股消费ETF鹏华",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159263": {
+    "name": "价值ETF易方达",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "159262": {
+    "name": "港股通科技ETF",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159261": {
+    "name": "创业板新能源ETF鹏华",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159260": {
+    "name": "证券ETF博时",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "159259": {
+    "name": "成长ETF易方达",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "159258": {
+    "name": "机器人ETF南方",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159257": {
+    "name": "航空ETF汇添富",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159256": {
+    "name": "创业板软件ETF华夏",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159255": {
+    "name": "通用航空ETF易方达",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159253": {
+    "name": "银行ETF博时",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "159251": {
+    "name": "港股通科技ETF万家",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159249": {
+    "name": "A500增强ETF工银",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159248": {
+    "name": "人工智能ETF万家",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159247": {
+    "name": "创业板ETF汇添富",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159246": {
+    "name": "创业板人工智能ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159245": {
+    "name": "港股通消费ETF",
+    "category": "港股-消费",
+    "sector": "港股"
+  },
+  "159243": {
+    "name": "创业板人工智能ETF招商",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159242": {
+    "name": "创业板人工智能ETF大成",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159241": {
+    "name": "航空航天ETF天弘",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "159240": {
+    "name": "中证A500增强ETF天弘",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159239": {
+    "name": "港股通汽车ETF富国",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159238": {
+    "name": "300ETF增强",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159237": {
+    "name": "港股汽车ETF工银",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159236": {
+    "name": "自由现金流ETF工银",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159235": {
+    "name": "中证现金流ETF大成",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159233": {
+    "name": "自由现金流ETF基金",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159232": {
+    "name": "自由现金流ETF南方",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159231": {
+    "name": "通用航空ETF华宝",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159230": {
+    "name": "通用航空ETF华夏",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "159229": {
+    "name": "自由现金流ETF广发",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159228": {
+    "name": "红利低波ETF长城",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159227": {
+    "name": "航空航天ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "159226": {
+    "name": "中证A500增强ETF国泰",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159225": {
+    "name": "现金流ETF基金",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159223": {
+    "name": "现金流ETF永赢",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159222": {
+    "name": "自由现金流ETF易方达",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159221": {
+    "name": "现金流ETF嘉实",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159220": {
+    "name": "港股通红利低波ETF华宝",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159219": {
+    "name": "深证100ETF融通",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159218": {
+    "name": "卫星ETF招商",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "159217": {
+    "name": "港股通创新药ETF工银",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159216": {
+    "name": "深证100ETF大成",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159215": {
+    "name": "中证A500ETF指数基金",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159213": {
+    "name": "机器人ETF汇添富",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "159212": {
+    "name": "深100ETF南方",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159211": {
+    "name": "深证100ETF富国",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159210": {
+    "name": "港股通汽车ETF汇添富",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159209": {
+    "name": "中证红利质量ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159208": {
+    "name": "航空航天ETF万家",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "159207": {
+    "name": "高股息ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "159206": {
+    "name": "卫星ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "159205": {
+    "name": "创业板ETF东财",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159203": {
+    "name": "大盘成长ETF博时",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "159202": {
+    "name": "恒生互联网ETF万家",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159201": {
+    "name": "自由现金流ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159200": {
+    "name": "科创债ETF富国",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159168": {
+    "name": "有色ETF富国",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159167": {
+    "name": "港股通医疗ETF工银",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159165": {
+    "name": "养殖ETF永赢",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "159163": {
+    "name": "有色ETF泰康",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159162": {
+    "name": "工业有色ETF鹏华",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159159": {
+    "name": "公用事业ETF国投瑞银",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159158": {
+    "name": "电力ETF景顺",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159157": {
+    "name": "有色金属ETF天弘",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "159156": {
+    "name": "电池ETF万家",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159155": {
+    "name": "电池ETF大成",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159153": {
+    "name": "消费电子ETF鹏华",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "159152": {
+    "name": "港股通科技ETF平安",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159151": {
+    "name": "食品ETF华夏",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "159150": {
+    "name": "深证50ETF易方达",
+    "category": "宽基-深证",
+    "sector": "宽基"
+  },
+  "159149": {
+    "name": "创业板新能源ETF工银",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159148": {
+    "name": "石油ETF富国",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "159147": {
+    "name": "电池ETF南方",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "159146": {
+    "name": "电力ETF华宝",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "159145": {
+    "name": "工业软件ETF广发",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159143": {
+    "name": "港股通央企红利ETF平安",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159142": {
+    "name": "科创创业人工智能ETF景顺",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159141": {
+    "name": "科创创业人工智能ETF永赢",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159140": {
+    "name": "科创创业人工智能ETF易方达",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159139": {
+    "name": "科创创业人工智能ETF华泰柏瑞",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "159138": {
+    "name": "工程机械ETF易方达",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "159137": {
+    "name": "港股通医疗ETF华宝",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "159136": {
+    "name": "A50ETF广发",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "159135": {
+    "name": "港股通科技ETF前海开源",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159133": {
+    "name": "化工ETF天弘",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "159132": {
+    "name": "恒生生物科技ETF富国",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159131": {
+    "name": "港股信息技术ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159130": {
+    "name": "恒生生物科技ETF鹏华",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159129": {
+    "name": "化工ETF嘉实",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "159128": {
+    "name": "港股科技ETF天弘",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159127": {
+    "name": "港股通红利ETF南方",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159126": {
+    "name": "港股通50ETF南方",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159125": {
+    "name": "港股通科技ETF招商",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159123": {
+    "name": "光伏ETF嘉实",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "159122": {
+    "name": "创业板新能源ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159121": {
+    "name": "港股通汽车ETF易方达",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159120": {
+    "name": "港股科技30ETF",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159119": {
+    "name": "800现金流ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "159118": {
+    "name": "港股通红利低波ETF基金",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159117": {
+    "name": "港股通红利低波ETF",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "159116": {
+    "name": "科创债ETF工银",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159115": {
+    "name": "科创债ETF华安",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159113": {
+    "name": "科创债ETF大成",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159112": {
+    "name": "科创债ETF银华",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159111": {
+    "name": "科创债ETF天弘",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159110": {
+    "name": "科创债ETF万家",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "159109": {
+    "name": "恒生50ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159108": {
+    "name": "工业软件ETF博时",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "159107": {
+    "name": "创业板软件ETF富国",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "159106": {
+    "name": "民企300ETF前海开源",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "159105": {
+    "name": "恒生生物科技ETF易方达",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "159103": {
+    "name": "金融科技ETF汇添富",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "159102": {
+    "name": "港股通生物科技ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "159101": {
+    "name": "港股通科技ETF基金",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "159100": {
+    "name": "巴西ETF",
+    "category": "巴西",
+    "sector": "巴西"
+  },
+  "159005": {
+    "name": "汇添富快钱ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "159003": {
+    "name": "招商快线ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "159001": {
+    "name": "货币ETF易方达",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "589990": {
+    "name": "科创综指ETF华泰柏瑞",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589980": {
+    "name": "科创100ETF汇添富",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "589960": {
+    "name": "科创新能源ETF易方达",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "589950": {
+    "name": "科创100ETF富国",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "589900": {
+    "name": "科创综指ETF博时",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589890": {
+    "name": "科创综指ETF景顺",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589880": {
+    "name": "科创综指ETF建信",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589860": {
+    "name": "科创综指ETF天弘",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589850": {
+    "name": "科创50ETF东财",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "589820": {
+    "name": "科创200ETF建信",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589800": {
+    "name": "科创综指ETF易方达",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589780": {
+    "name": "科创200ETF富国",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589770": {
+    "name": "科创综指ETF招商",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589720": {
+    "name": "科创创新药ETF国泰",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "589700": {
+    "name": "科创成长ETF南方",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "589680": {
+    "name": "科创综指ETF鹏华",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589660": {
+    "name": "科创综指ETF南方",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589630": {
+    "name": "科创综指ETF国泰",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589600": {
+    "name": "科创综指ETF富国",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589580": {
+    "name": "科创综指ETF兴银",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589560": {
+    "name": "科创人工智能ETF汇添富",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589550": {
+    "name": "科创价值ETF华夏",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "589520": {
+    "name": "科创人工智能ETF华宝",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589500": {
+    "name": "科创综指ETF工银",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589380": {
+    "name": "科创AIETF富国",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589300": {
+    "name": "科创综指ETF嘉实",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589230": {
+    "name": "科创人工智能ETF南方",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589220": {
+    "name": "科创200ETF国泰",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589210": {
+    "name": "科创芯片设计ETF广发",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589200": {
+    "name": "科创200ETF工银",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589190": {
+    "name": "科创芯片ETF华宝",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589180": {
+    "name": "科创新材料ETF汇添富",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "589170": {
+    "name": "科创芯片设计ETF鹏华",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589160": {
+    "name": "科创芯片ETF广发",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589150": {
+    "name": "科创50ETF平安",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "589130": {
+    "name": "科创芯片ETF易方达",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589120": {
+    "name": "科创创新药ETF汇添富",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "589110": {
+    "name": "科创人工智能ETF国泰",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589100": {
+    "name": "科创芯片ETF国泰",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589090": {
+    "name": "科创AIETF鹏华",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589080": {
+    "name": "科创综指ETF汇添富",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "589070": {
+    "name": "科创芯片设计ETF天弘",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589060": {
+    "name": "科创综指ETF东财",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589050": {
+    "name": "科创综指ETF兴业",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "589030": {
+    "name": "科创芯片设计ETF易方达",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589020": {
+    "name": "科创半导体设备ETF鹏华",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "589010": {
+    "name": "科创人工智能ETF华夏",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "589000": {
+    "name": "科创综指ETF华夏",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588990": {
+    "name": "科创芯片ETF博时",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588980": {
+    "name": "科创100ETF广发",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588960": {
+    "name": "科创板新能源ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "588950": {
+    "name": "科创50ETF景顺",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588940": {
+    "name": "科创50ETF富国",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588930": {
+    "name": "科创人工智能ETF银华",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588920": {
+    "name": "科创芯片ETF鹏华",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588910": {
+    "name": "科创价值ETF建信",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "588900": {
+    "name": "科创100ETF南方",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588890": {
+    "name": "科创芯片ETF南方",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588880": {
+    "name": "科创100ETF华泰柏瑞",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588870": {
+    "name": "科创50ETF汇添富",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588860": {
+    "name": "科创医药ETF工银",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "588850": {
+    "name": "科创机械ETF嘉实",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "588840": {
+    "name": "科创50ETF万家",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588830": {
+    "name": "科创新能源ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "588820": {
+    "name": "科创200ETF华夏",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588810": {
+    "name": "科创芯片ETF富国",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588800": {
+    "name": "科创100ETF华夏",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588790": {
+    "name": "科创AIETF博时",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588780": {
+    "name": "科创芯片设计ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588770": {
+    "name": "科创信息ETF摩根",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588760": {
+    "name": "科创人工智能ETF广发",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588750": {
+    "name": "科创芯片ETF汇添富",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588730": {
+    "name": "科创人工智能ETF易方达",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588720": {
+    "name": "科创50ETF中银",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588710": {
+    "name": "科创半导体设备ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588700": {
+    "name": "科创医药ETF嘉实",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "588690": {
+    "name": "科创增强ETF银华",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588680": {
+    "name": "科创100ETF增强指数基金",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588670": {
+    "name": "科创综指增强ETF嘉实",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588660": {
+    "name": "科创创业50ETF基金",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588550": {
+    "name": "科创综指增强ETF易方达",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588520": {
+    "name": "科创增强ETF",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588500": {
+    "name": "科创100增强ETF易方达",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588460": {
+    "name": "科创50增强ETF",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588450": {
+    "name": "科创50增强ETF招商",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588430": {
+    "name": "科创创业人工智能ETF工银",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588420": {
+    "name": "科创创业人工智能ETF摩根",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588410": {
+    "name": "科创创业人工智能ETF鹏华",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "588400": {
+    "name": "科创创业ETF嘉实",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588390": {
+    "name": "科创创业ETF博时",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588380": {
+    "name": "双创50ETF",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "588370": {
+    "name": "科创50增强ETF南方",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588360": {
+    "name": "科创创业ETF国泰",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588350": {
+    "name": "双创50ETF基金",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "588330": {
+    "name": "双创龙头ETF",
+    "category": "宽基-双创",
+    "sector": "宽基"
+  },
+  "588320": {
+    "name": "双创50ETF增强",
+    "category": "宽基-创业板",
+    "sector": "宽基"
+  },
+  "588310": {
+    "name": "双创ETF基金",
+    "category": "宽基-双创",
+    "sector": "宽基"
+  },
+  "588300": {
+    "name": "科创创业50ETF招商",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588290": {
+    "name": "科创芯片ETF基金",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588280": {
+    "name": "科创50ETF指数基金",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588270": {
+    "name": "科创200ETF易方达",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588260": {
+    "name": "科创信息ETF",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588250": {
+    "name": "科创生物医药ETF",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "588240": {
+    "name": "科创200ETF鹏华",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588230": {
+    "name": "科创200ETF",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588220": {
+    "name": "科创100ETF鹏华",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588210": {
+    "name": "科创100ETF易方达",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588200": {
+    "name": "科创芯片ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588190": {
+    "name": "科创100ETF",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588180": {
+    "name": "科创50ETF基金",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588170": {
+    "name": "科创半导体ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "588160": {
+    "name": "科创新材料ETF南方",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "588150": {
+    "name": "科创50ETF南方",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588140": {
+    "name": "科创200ETF广发",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588130": {
+    "name": "科创医药ETF华夏",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "588120": {
+    "name": "科创100ETF国泰",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588110": {
+    "name": "科创成长ETF",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "588100": {
+    "name": "科创信息ETF嘉实",
+    "category": "宽基-科创",
+    "sector": "宽基"
+  },
+  "588090": {
+    "name": "科创50ETF华泰柏瑞",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588080": {
+    "name": "科创50ETF易方达",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588070": {
+    "name": "科创成长ETF万家",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "588060": {
+    "name": "科创50ETF广发",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588050": {
+    "name": "科创50ETF工银",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588040": {
+    "name": "科创50ETF鹏华",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "588030": {
+    "name": "科创100ETF博时",
+    "category": "宽基-科创100",
+    "sector": "宽基"
+  },
+  "588020": {
+    "name": "科创成长ETF易方达",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "588010": {
+    "name": "科创新材料ETF博时",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "588000": {
+    "name": "科创50ETF",
+    "category": "宽基-科创50",
+    "sector": "宽基"
+  },
+  "563990": {
+    "name": "800现金流ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563980": {
+    "name": "800红利低波ETF鑫元",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "563960": {
+    "name": "300质量ETF兴全",
+    "category": "风格-质量",
+    "sector": "风格"
+  },
+  "563930": {
+    "name": "上证增强ETF招商",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "563900": {
+    "name": "300自由现金流ETF摩根",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563890": {
+    "name": "国企红利ETF创金合信",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "563880": {
+    "name": "A500ETF汇添富",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563870": {
+    "name": "通用航空ETF鹏华",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "563860": {
+    "name": "中证A500ETF海富通",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563850": {
+    "name": "食品ETF广发",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "563830": {
+    "name": "全指现金流ETF博时",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563800": {
+    "name": "A500ETF龙头",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563790": {
+    "name": "卫星ETF鹏华",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "563780": {
+    "name": "现金流全指ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563770": {
+    "name": "全指现金流ETF招商",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563760": {
+    "name": "全指自由现金流ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563750": {
+    "name": "中证500ETF汇添富",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "563700": {
+    "name": "红利价值ETF易方达",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "563690": {
+    "name": "红利低波ETF永赢",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "563680": {
+    "name": "800现金流ETF汇添富",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563670": {
+    "name": "金融科技ETF鹏华",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "563660": {
+    "name": "A500ETF银河",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563650": {
+    "name": "中证A500ETF兴业",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563630": {
+    "name": "A500增强ETF国联安",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563620": {
+    "name": "全指现金流ETF兴业",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563600": {
+    "name": "A500增强ETF易方达",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563590": {
+    "name": "A500红利低波动ETF国寿",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563580": {
+    "name": "自由现金流800ETF万家",
+    "category": "宽基-中证800",
+    "sector": "宽基"
+  },
+  "563570": {
+    "name": "金融科技ETF兴业",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "563560": {
+    "name": "科技成长ETF兴业",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "563550": {
+    "name": "A500增强ETF摩根",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563530": {
+    "name": "卫星ETF易方达",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "563520": {
+    "name": "沪深300ETF永赢",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "563510": {
+    "name": "A500红利低波ETF易方达",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563500": {
+    "name": "A500ETF华宝",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563390": {
+    "name": "现金流ETF全指",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "563380": {
+    "name": "航空航天ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "563360": {
+    "name": "A500ETF华泰柏瑞",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563350": {
+    "name": "中证A50ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563330": {
+    "name": "A股ETF",
+    "category": "宽基-中证A",
+    "sector": "宽基"
+  },
+  "563320": {
+    "name": "通用航空ETF",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "563300": {
+    "name": "中证2000ETF",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "563280": {
+    "name": "A50增强ETF富国",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563230": {
+    "name": "卫星ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "563220": {
+    "name": "中证A500ETF富国",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563210": {
+    "name": "专精特新ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "563200": {
+    "name": "中证2000ETF富国",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "563180": {
+    "name": "高股息ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "563150": {
+    "name": "油气ETF银华",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "563090": {
+    "name": "上证50增强ETF易方达",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "563080": {
+    "name": "中证A50ETF易方达",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "563060": {
+    "name": "央企50ETF易方达",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "563050": {
+    "name": "央企科技ETF易方达",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "563030": {
+    "name": "中证500增强ETF易方达",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "563020": {
+    "name": "红利低波ETF易方达",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "563010": {
+    "name": "电信ETF易方达",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "563000": {
+    "name": "中国A50ETF易方达",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "562990": {
+    "name": "碳中和ETF易方达",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "562970": {
+    "name": "光伏ETF易方达",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "562960": {
+    "name": "绿色电力ETF易方达",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "562950": {
+    "name": "消费电子ETF易方达",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "562930": {
+    "name": "软件ETF易方达",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "562920": {
+    "name": "信息安全ETF易方达",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "562910": {
+    "name": "高端制造ETF易方达",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "562900": {
+    "name": "农业ETF易方达",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "562890": {
+    "name": "A50ETF嘉实",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "562880": {
+    "name": "电池ETF嘉实",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "562870": {
+    "name": "证券ETF嘉实",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "562860": {
+    "name": "疫苗ETF嘉实",
+    "category": "行业-疫苗",
+    "sector": "行业"
+  },
+  "562850": {
+    "name": "央企能源ETF嘉实",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "562820": {
+    "name": "集成电路ETF嘉实",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "562810": {
+    "name": "上证指数增强ETF嘉实",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "562800": {
+    "name": "稀有金属ETF",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "562700": {
+    "name": "汽车零部件ETF",
+    "category": "行业-汽车",
+    "sector": "行业"
+  },
+  "562660": {
+    "name": "中证2000ETF华夏",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "562600": {
+    "name": "医疗器械ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "562590": {
+    "name": "半导体设备ETF华夏",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "562580": {
+    "name": "可选消费ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "562570": {
+    "name": "信创ETF",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "562560": {
+    "name": "信息技术ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "562550": {
+    "name": "绿电ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "562530": {
+    "name": "中证1000价值ETF",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "562520": {
+    "name": "中证1000成长ETF",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "562510": {
+    "name": "旅游ETF",
+    "category": "行业-旅游",
+    "sector": "行业"
+  },
+  "562500": {
+    "name": "机器人ETF",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "562390": {
+    "name": "中药ETF银华",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "562380": {
+    "name": "央企科技ETF银华",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "562360": {
+    "name": "机器人ETF银华",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "562350": {
+    "name": "电力ETF银华",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "562340": {
+    "name": "中证500成长ETF银华",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "562330": {
+    "name": "中证500价值ETF银华",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "562320": {
+    "name": "沪深300价值ETF银华",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "562310": {
+    "name": "沪深300成长ETF银华",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "562300": {
+    "name": "碳中和ETF银华",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "562080": {
+    "name": "300现金流ETF",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "562070": {
+    "name": "沪深300指增ETF",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "562060": {
+    "name": "标普A股红利ETF华宝",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "562050": {
+    "name": "药ETF",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "562030": {
+    "name": "信创ETF基金",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "562010": {
+    "name": "绿色能源ETF",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "562000": {
+    "name": "中证A100ETF基金",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "561990": {
+    "name": "沪深300增强ETF招商",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "561980": {
+    "name": "半导体设备ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "561960": {
+    "name": "央企回报ETF招商",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "561950": {
+    "name": "中证500增强ETF招商",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "561930": {
+    "name": "沪深300ETF招商",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "561920": {
+    "name": "疫苗ETF招商",
+    "category": "行业-疫苗",
+    "sector": "行业"
+  },
+  "561910": {
+    "name": "电池ETF",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "561900": {
+    "name": "沪深300ESGETF招商",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "561880": {
+    "name": "A100ETF基金",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "561870": {
+    "name": "自由现金流ETF全指",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "561800": {
+    "name": "稀有金属ETF基金",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "561790": {
+    "name": "央企能源ETF博时",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "561780": {
+    "name": "1000增强ETF博时",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "561770": {
+    "name": "A100ETF博时",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "561760": {
+    "name": "油气ETF博时",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "561750": {
+    "name": "A50ETF博时",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "561700": {
+    "name": "电力ETF博时",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "561680": {
+    "name": "中证A500红利低波ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "561660": {
+    "name": "通用航空ETF基金",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "561600": {
+    "name": "消费电子ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "561590": {
+    "name": "中证1000增强ETF",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "561580": {
+    "name": "央企红利ETF华泰柏瑞",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "561570": {
+    "name": "油气ETF华泰柏瑞",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "561560": {
+    "name": "电力ETF",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "561550": {
+    "name": "500增强ETF",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "561510": {
+    "name": "中药ETF华泰柏瑞",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "561500": {
+    "name": "漂亮50ETF",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  },
+  "561380": {
+    "name": "电网ETF",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "561370": {
+    "name": "中证2000ETF国泰",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "561360": {
+    "name": "石油ETF",
+    "category": "行业-石油",
+    "sector": "行业"
+  },
+  "561350": {
+    "name": "中证500ETF国泰",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "561330": {
+    "name": "矿业ETF",
+    "category": "行业-矿业",
+    "sector": "行业"
+  },
+  "561320": {
+    "name": "交运ETF",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "561310": {
+    "name": "消电ETF国泰",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "561300": {
+    "name": "沪深300增强ETF国泰",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "561280": {
+    "name": "中证1000增强ETF工银",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "561260": {
+    "name": "能源ETF工银",
+    "category": "行业-能源",
+    "sector": "行业"
+  },
+  "561230": {
+    "name": "中证A50ETF工银",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "561220": {
+    "name": "数字经济ETF工银",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "561200": {
+    "name": "中证A100ETF工银",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "561190": {
+    "name": "碳中和ETF富国",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "561180": {
+    "name": "A100ETF",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "561170": {
+    "name": "绿色电力ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "561160": {
+    "name": "电池ETF富国",
+    "category": "行业-电池",
+    "sector": "行业"
+  },
+  "561130": {
+    "name": "国货ETF富国",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "561120": {
+    "name": "家电ETF",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "561100": {
+    "name": "消费电子ETF富国",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "561090": {
+    "name": "中证A500增强ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "561080": {
+    "name": "自由现金流ETF中证全指",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "561060": {
+    "name": "国企红利ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "561010": {
+    "name": "软件ETF基金",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "561000": {
+    "name": "沪深300ETF增强基金",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "560990": {
+    "name": "科技先锋ETF中金",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "560980": {
+    "name": "光伏龙头ETF广发",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "560950": {
+    "name": "中证500增强ETF汇添富",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "560900": {
+    "name": "创新药ETF摩根",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "560890": {
+    "name": "红利低波ETF新华",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560880": {
+    "name": "家电ETF广发",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "560860": {
+    "name": "工业有色ETF万家",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "560850": {
+    "name": "信创ETF汇添富",
+    "category": "行业-信创",
+    "sector": "行业"
+  },
+  "560820": {
+    "name": "中证A50ETF新华",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560810": {
+    "name": "央企ESGETF融通",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "560800": {
+    "name": "数字经济ETF",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "560780": {
+    "name": "半导体设备ETF广发",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "560770": {
+    "name": "机器人指数ETF",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "560750": {
+    "name": "A500ETF申万菱信",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560710": {
+    "name": "船舶ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "560700": {
+    "name": "央企红利ETF广发",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560690": {
+    "name": "电信ETF鹏华",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "560680": {
+    "name": "消费ETF广发",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "560660": {
+    "name": "云计算50ETF新华",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "560650": {
+    "name": "核心50ETF民生加银",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  },
+  "560630": {
+    "name": "机器人ETF万家",
+    "category": "行业-机器人",
+    "sector": "行业"
+  },
+  "560620": {
+    "name": "公用事业ETF万家",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "560610": {
+    "name": "A500ETF招商",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560590": {
+    "name": "中证1000增强ETF鹏华",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "560580": {
+    "name": "电力ETF南方",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "560570": {
+    "name": "A500红利ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560560": {
+    "name": "碳中和ETF泰康",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "560550": {
+    "name": "碳中和ETF广发",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "560530": {
+    "name": "中证A500ETF摩根",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560520": {
+    "name": "红利低波100ETF大成",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560510": {
+    "name": "中证A500ETF",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560500": {
+    "name": "500质量成长ETF",
+    "category": "风格-成长",
+    "sector": "风格"
+  },
+  "560380": {
+    "name": "A100ETF南方",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "560370": {
+    "name": "红利质量ETF易方达",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560360": {
+    "name": "软件ETF万家",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "560350": {
+    "name": "中证A50ETF摩根",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560330": {
+    "name": "沪深300价值ETF申万菱信",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "560310": {
+    "name": "光伏ETF博时",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "560300": {
+    "name": "电信ETF汇添富",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "560290": {
+    "name": "有色ETF景顺",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "560280": {
+    "name": "工程机械ETF",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "560260": {
+    "name": "医疗ETF广发",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "560230": {
+    "name": "光伏ETF富国",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "560220": {
+    "name": "中证2000ETF广发",
+    "category": "宽基-中证2000",
+    "sector": "宽基"
+  },
+  "560190": {
+    "name": "公用事业ETF",
+    "category": "行业-电力",
+    "sector": "行业"
+  },
+  "560180": {
+    "name": "沪深300ESGETF南方",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "560170": {
+    "name": "央企科技ETF南方",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "560160": {
+    "name": "医疗器械ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "560150": {
+    "name": "红利低波ETF泰康",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560130": {
+    "name": "食品ETF鹏华",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "560120": {
+    "name": "现金流500ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "560110": {
+    "name": "中证1000ETF汇添富",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "560100": {
+    "name": "中证500增强ETF南方",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "560090": {
+    "name": "证券ETF汇添富",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "560080": {
+    "name": "中药ETF",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "560070": {
+    "name": "央企红利ETF汇添富",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560060": {
+    "name": "碳中和ETF汇添富",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "560050": {
+    "name": "中国A50ETF汇添富",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "560030": {
+    "name": "800价值ETF汇添富",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "560020": {
+    "name": "红利ETF汇添富",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "560010": {
+    "name": "中证1000ETF广发",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "560000": {
+    "name": "智能电车ETF浦银",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "551900": {
+    "name": "科创债ETF招商",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551800": {
+    "name": "科创债ETF国泰",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551580": {
+    "name": "科创债ETF泰康",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551560": {
+    "name": "科创债ETF兴业",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551550": {
+    "name": "科创债ETF华夏",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551520": {
+    "name": "科创债ETF汇添富",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551510": {
+    "name": "科创债ETF华泰柏瑞",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551500": {
+    "name": "科创债ETF易方达",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551300": {
+    "name": "科创债ETF摩根",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551060": {
+    "name": "科创债ETF中银",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551030": {
+    "name": "科创债ETF鹏华",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "551000": {
+    "name": "科创债ETF博时",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "530880": {
+    "name": "红利国企ETF银河",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "530800": {
+    "name": "上证180ETF银华",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530680": {
+    "name": "上证180ETF兴业",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530580": {
+    "name": "上证180ETF南方",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530530": {
+    "name": "上证580ETF华夏",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530380": {
+    "name": "上证380ETF易方达",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530300": {
+    "name": "上证180ETF华泰柏瑞",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530280": {
+    "name": "上证180ETF指数基金",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530180": {
+    "name": "上证180ETF易方达",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530100": {
+    "name": "上证580ETF易方达",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530080": {
+    "name": "上证180ETF天弘",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530060": {
+    "name": "上证指数ETF易方达",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "530050": {
+    "name": "上证50ETF东财",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "530000": {
+    "name": "上证50ETF天弘",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "520990": {
+    "name": "港股央企红利50ETF",
+    "category": "港股-央企",
+    "sector": "港股"
+  },
+  "520980": {
+    "name": "港股通科技ETF汇添富",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "520970": {
+    "name": "港股通创新药ETF嘉实",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "520960": {
+    "name": "恒指港股通ETF嘉实",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520950": {
+    "name": "港股通50ETF摩根",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "520940": {
+    "name": "港股通恒生ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520930": {
+    "name": "恒生生物科技ETF国泰",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520920": {
+    "name": "恒生科技ETF天弘",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520910": {
+    "name": "港股通互联网ETF基金",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "520900": {
+    "name": "港股通红利ETF广发",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "520890": {
+    "name": "港股通红利低波ETF华泰柏瑞",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "520880": {
+    "name": "港股通创新药ETF",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "520870": {
+    "name": "巴西ETF易方达",
+    "category": "巴西",
+    "sector": "巴西"
+  },
+  "520860": {
+    "name": "港股通科技ETF富国",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "520850": {
+    "name": "港股通医疗ETF易方达",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "520840": {
+    "name": "港股通恒生科技ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520830": {
+    "name": "沙特ETF",
+    "category": "沙特",
+    "sector": "沙特"
+  },
+  "520820": {
+    "name": "恒生港股通ETF汇添富",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520810": {
+    "name": "港股通红利ETF易方达",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "520780": {
+    "name": "港股通汽车ETF华宝",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "520770": {
+    "name": "恒指港股通ETF建信",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520760": {
+    "name": "恒生生物科技ETF摩根",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520720": {
+    "name": "港股汽车ETF国泰",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "520700": {
+    "name": "港股通创新药ETF万家",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "520690": {
+    "name": "港股创新药ETF博时",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "520670": {
+    "name": "港股通科技ETF嘉实",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "520660": {
+    "name": "港股通央企红利ETF南方",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "520650": {
+    "name": "港股通互联网ETF南方",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "520630": {
+    "name": "港股通互联网ETF广发",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "520620": {
+    "name": "恒生消费ETF嘉实",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520610": {
+    "name": "港股红利低波ETF银华",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "520600": {
+    "name": "港股汽车ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "520590": {
+    "name": "恒生科技ETF鹏华",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520580": {
+    "name": "新兴亚洲ETF招商",
+    "category": "亚太",
+    "sector": "亚太"
+  },
+  "520570": {
+    "name": "恒生科技ETF南方",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520560": {
+    "name": "香港大盘30ETF",
+    "category": "港股-大盘",
+    "sector": "港股"
+  },
+  "520550": {
+    "name": "港股红利低波ETF",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "520530": {
+    "name": "港股通科技ETF东财",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "520520": {
+    "name": "恒生消费ETF华泰柏瑞",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "520510": {
+    "name": "港股通医疗ETF",
+    "category": "港股-医药",
+    "sector": "港股"
+  },
+  "520500": {
+    "name": "恒生创新药ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "518890": {
+    "name": "中银上海金ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518880": {
+    "name": "黄金ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518860": {
+    "name": "上海金ETF建信",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518850": {
+    "name": "黄金ETF华夏",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518800": {
+    "name": "黄金ETF国泰",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518680": {
+    "name": "金ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518660": {
+    "name": "黄金ETF工银",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "518600": {
+    "name": "上海金ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "517990": {
+    "name": "沪港深医药ETF招商",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "517950": {
+    "name": "沪深港科技50ETF交银",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "517900": {
+    "name": "银行AH优选ETF",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "517880": {
+    "name": "品牌消费ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "517850": {
+    "name": "张江ETF汇添富",
+    "category": "区域-粤港澳",
+    "sector": "区域"
+  },
+  "517800": {
+    "name": "人工智能50ETF",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "517770": {
+    "name": "游戏传媒ETF浦银",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "517660": {
+    "name": "物联网ETF天弘",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "517550": {
+    "name": "沪港深消费龙头ETF招商",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "517520": {
+    "name": "黄金股ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "517400": {
+    "name": "黄金股票ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "517390": {
+    "name": "云计算ETF天弘",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "517380": {
+    "name": "创新药ETF天弘",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "517360": {
+    "name": "科技ETF沪港深",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "517350": {
+    "name": "沪港深科技ETF广发",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "517330": {
+    "name": "长江保护ETF易方达",
+    "category": "区域-长三角",
+    "sector": "区域"
+  },
+  "517300": {
+    "name": "沪港深300ETF国寿",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "517200": {
+    "name": "互联网ETF嘉实",
+    "category": "行业-互联网",
+    "sector": "行业"
+  },
+  "517180": {
+    "name": "中国国企ETF南方",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "517170": {
+    "name": "沪港深500ETF华夏",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "517160": {
+    "name": "长江保护ETF南方",
+    "category": "区域-长三角",
+    "sector": "区域"
+  },
+  "517120": {
+    "name": "创新药ETF华泰柏瑞",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "517110": {
+    "name": "创新药ETF国泰",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "517100": {
+    "name": "沪港深500ETF富国",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "517090": {
+    "name": "央企共赢ETF国泰",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "517080": {
+    "name": "沪港深500ETF汇添富",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "517050": {
+    "name": "互联网ETF华泰柏瑞",
+    "category": "行业-互联网",
+    "sector": "行业"
+  },
+  "517030": {
+    "name": "沪港深300ETF易方达",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "517010": {
+    "name": "沪港深500ETF易方达",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "517000": {
+    "name": "沪港深500ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "516980": {
+    "name": "证券ETF先锋",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "516970": {
+    "name": "基建ETF广发",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "516960": {
+    "name": "机械ETF国泰",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "516950": {
+    "name": "基建ETF银华",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "516930": {
+    "name": "生物科技ETF民生加银",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "516920": {
+    "name": "芯片ETF汇添富",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "516910": {
+    "name": "物流ETF富国",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "516900": {
+    "name": "食品饮料ETF基金",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "516890": {
+    "name": "新材料ETF指数基金",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "516880": {
+    "name": "光伏ETF银华",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "516860": {
+    "name": "金融科技ETF博时",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "516850": {
+    "name": "新能源ETF华夏",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "516830": {
+    "name": "300ESGETF",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "516820": {
+    "name": "医疗创新ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "516810": {
+    "name": "农业ETF华夏",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "516800": {
+    "name": "智能制造ETF",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "516790": {
+    "name": "医疗ETF华泰柏瑞",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "516780": {
+    "name": "稀土ETF",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "516770": {
+    "name": "游戏ETF华泰柏瑞",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "516760": {
+    "name": "养殖ETF",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "516750": {
+    "name": "建材ETF",
+    "category": "行业-建材",
+    "sector": "行业"
+  },
+  "516730": {
+    "name": "证券ETF浦银",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "516720": {
+    "name": "ESGETF浦银",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "516710": {
+    "name": "新材料ETF华夏",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "516700": {
+    "name": "大数据产业ETF",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "516670": {
+    "name": "畜牧养殖ETF",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "516660": {
+    "name": "新能源车ETF基金",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "516650": {
+    "name": "有色金属ETF基金",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "516640": {
+    "name": "芯片ETF富国",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "516630": {
+    "name": "云计算ETF华夏",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "516620": {
+    "name": "影视ETF",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "516610": {
+    "name": "医疗设备ETF大成",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "516600": {
+    "name": "消费服务ETF工银",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "516590": {
+    "name": "智能汽车ETF易方达",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "516580": {
+    "name": "新能源ETF博时",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "516570": {
+    "name": "化工行业ETF易方达",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "516560": {
+    "name": "养老ETF",
+    "category": "行业-养老",
+    "sector": "行业"
+  },
+  "516550": {
+    "name": "农业ETF嘉实",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "516530": {
+    "name": "物流ETF银华",
+    "category": "行业-交通运输",
+    "sector": "行业"
+  },
+  "516520": {
+    "name": "智能驾驶ETF",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "516510": {
+    "name": "云计算ETF易方达",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "516500": {
+    "name": "生物科技ETF",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "516460": {
+    "name": "现金流ETF800鹏华",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "516390": {
+    "name": "新能源车ETF汇添富",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "516380": {
+    "name": "智能电动车ETF",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "516360": {
+    "name": "新材料ETF",
+    "category": "行业-材料",
+    "sector": "行业"
+  },
+  "516350": {
+    "name": "芯片ETF易方达",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "516330": {
+    "name": "物联网ETF",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "516320": {
+    "name": "高端装备ETF华夏",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "516310": {
+    "name": "银行ETF易方达",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "516300": {
+    "name": "中证1000ETF华泰柏瑞",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "516290": {
+    "name": "光伏ETF汇添富",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "516270": {
+    "name": "新能源50ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "516260": {
+    "name": "物联网ETF华夏",
+    "category": "行业-物联网",
+    "sector": "行业"
+  },
+  "516250": {
+    "name": "工程机械ETF富国",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "516230": {
+    "name": "光伏ETF招商",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "516220": {
+    "name": "化工ETF国泰",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "516210": {
+    "name": "银行ETF指数基金",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "516200": {
+    "name": "证券ETF指数基金",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "516190": {
+    "name": "传媒ETF华夏",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "516180": {
+    "name": "光伏ETF基金",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "516160": {
+    "name": "新能源ETF",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "516150": {
+    "name": "稀土ETF嘉实",
+    "category": "行业-稀有金属",
+    "sector": "行业"
+  },
+  "516130": {
+    "name": "消费龙头ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "516120": {
+    "name": "化工50ETF",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "516110": {
+    "name": "汽车ETF",
+    "category": "行业-汽车",
+    "sector": "行业"
+  },
+  "516100": {
+    "name": "金融科技ETF华夏",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "516090": {
+    "name": "新能源ETF易方达",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "516080": {
+    "name": "创新药ETF易方达",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "516070": {
+    "name": "低碳ETF易方达",
+    "category": "行业-新能源",
+    "sector": "行业"
+  },
+  "516060": {
+    "name": "创新药ETF工银",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "516050": {
+    "name": "科技龙头ETF工银",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "516020": {
+    "name": "化工ETF",
+    "category": "行业-化工",
+    "sector": "行业"
+  },
+  "516010": {
+    "name": "游戏ETF",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "516000": {
+    "name": "大数据ETF华夏",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "515990": {
+    "name": "一带一路ETF汇添富",
+    "category": "区域-一带一路",
+    "sector": "区域"
+  },
+  "515980": {
+    "name": "人工智能ETF",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "515970": {
+    "name": "工程机械ETF华夏",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "515960": {
+    "name": "医药ETF嘉实",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "515950": {
+    "name": "医药龙头ETF",
+    "category": "行业-医药",
+    "sector": "行业"
+  },
+  "515920": {
+    "name": "智能消费ETF博时",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "515910": {
+    "name": "质量ETF中金",
+    "category": "风格-质量",
+    "sector": "风格"
+  },
+  "515900": {
+    "name": "央企创新ETF博时",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "515890": {
+    "name": "红利ETF博时",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "515880": {
+    "name": "通信ETF",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "515860": {
+    "name": "科技ETF嘉实",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "515850": {
+    "name": "证券ETF富国",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "515810": {
+    "name": "中证800ETF易方达",
+    "category": "宽基-中证800",
+    "sector": "宽基"
+  },
+  "515800": {
+    "name": "800ETF",
+    "category": "宽基-中证800",
+    "sector": "宽基"
+  },
+  "515790": {
+    "name": "光伏ETF",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "515770": {
+    "name": "MSCI中国A股ETF摩根",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "515760": {
+    "name": "浙江国资ETF华夏",
+    "category": "区域-长三角",
+    "sector": "区域"
+  },
+  "515750": {
+    "name": "科技50ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "515730": {
+    "name": "家居家电ETF永赢",
+    "category": "行业-家电",
+    "sector": "行业"
+  },
+  "515720": {
+    "name": "金融科技ETF富国",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "515710": {
+    "name": "食品饮料ETF华宝",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "515700": {
+    "name": "新能车ETF",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "515680": {
+    "name": "央企创新ETF嘉实",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "515660": {
+    "name": "沪深300ETF国联安",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515650": {
+    "name": "消费50ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "515630": {
+    "name": "证券保险ETF鹏华",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "515600": {
+    "name": "央企创新ETF",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "515590": {
+    "name": "500等权ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "515580": {
+    "name": "科技100ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "515560": {
+    "name": "证券ETF建信",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "515550": {
+    "name": "中证500ETF国联",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "515530": {
+    "name": "中证500ETF泰康",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "515450": {
+    "name": "红利低波50ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "515400": {
+    "name": "大数据ETF",
+    "category": "行业-数字经济",
+    "sector": "行业"
+  },
+  "515390": {
+    "name": "沪深300ETF指数基金",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515380": {
+    "name": "沪深300ETF泰康",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515370": {
+    "name": "光伏ETF华夏",
+    "category": "行业-光伏",
+    "sector": "行业"
+  },
+  "515360": {
+    "name": "方正沪深300ETF",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515350": {
+    "name": "沪深300ETF民生加银",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515330": {
+    "name": "沪深300ETF天弘",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515320": {
+    "name": "电子50ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "515310": {
+    "name": "沪深300ETF汇添富",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515300": {
+    "name": "300红利低波ETF嘉实",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "515290": {
+    "name": "银行ETF天弘",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "515260": {
+    "name": "电子ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "515250": {
+    "name": "智能汽车ETF",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "515230": {
+    "name": "软件ETF",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "515220": {
+    "name": "煤炭ETF",
+    "category": "行业-煤炭",
+    "sector": "行业"
+  },
+  "515210": {
+    "name": "钢铁ETF",
+    "category": "行业-钢铁",
+    "sector": "行业"
+  },
+  "515200": {
+    "name": "创新100ETF申万菱信",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "515190": {
+    "name": "中证500ETF中银证券",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "515180": {
+    "name": "红利ETF易方达",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "515170": {
+    "name": "食品饮料ETF",
+    "category": "行业-食品饮料",
+    "sector": "行业"
+  },
+  "515160": {
+    "name": "MSCI中国ETF招商",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "515150": {
+    "name": "一带一路ETF富国",
+    "category": "区域-一带一路",
+    "sector": "区域"
+  },
+  "515130": {
+    "name": "沪深300ETF博时",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "515120": {
+    "name": "创新药ETF",
+    "category": "行业-创新药",
+    "sector": "行业"
+  },
+  "515110": {
+    "name": "一带一路ETF易方达",
+    "category": "区域-一带一路",
+    "sector": "区域"
+  },
+  "515100": {
+    "name": "红利低波100ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "515090": {
+    "name": "可持续发展ETF博时",
+    "category": "行业-环保",
+    "sector": "行业"
+  },
+  "515080": {
+    "name": "中证红利ETF",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "515070": {
+    "name": "人工智能AIETF",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "515060": {
+    "name": "房地产ETF华夏",
+    "category": "行业-房地产",
+    "sector": "行业"
+  },
+  "515050": {
+    "name": "通信ETF华夏",
+    "category": "行业-通信",
+    "sector": "行业"
+  },
+  "515030": {
+    "name": "新能源车ETF",
+    "category": "行业-新能源车",
+    "sector": "行业"
+  },
+  "515020": {
+    "name": "银行ETF华夏",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "515010": {
+    "name": "证券ETF华夏",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "515000": {
+    "name": "科技ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "513990": {
+    "name": "港股通ETF招商",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513980": {
+    "name": "港股科技50ETF",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "513970": {
+    "name": "恒生消费ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513950": {
+    "name": "恒生红利ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513920": {
+    "name": "港股通央企红利ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513910": {
+    "name": "港股央企红利ETF",
+    "category": "港股-央企",
+    "sector": "港股"
+  },
+  "513900": {
+    "name": "港股通100ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513890": {
+    "name": "恒生科技ETF摩根",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513880": {
+    "name": "日经225ETF",
+    "category": "日本",
+    "sector": "日本"
+  },
+  "513870": {
+    "name": "纳指ETF富国",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "513860": {
+    "name": "港股通科技ETF海富通",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "513850": {
+    "name": "美国50ETF易方达",
+    "category": "美股-其他",
+    "sector": "美股"
+  },
+  "513830": {
+    "name": "港股通高股息ETF嘉实",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513820": {
+    "name": "港股通红利ETF汇添富",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "513810": {
+    "name": "港股国企ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513800": {
+    "name": "日本东证指数ETF南方",
+    "category": "日本",
+    "sector": "日本"
+  },
+  "513780": {
+    "name": "港股创新药50ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513770": {
+    "name": "港股互联网ETF",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "513750": {
+    "name": "港股通非银ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513730": {
+    "name": "东南亚科技ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "513720": {
+    "name": "港股互联网ETF国泰",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "513700": {
+    "name": "港股通医药ETF鹏华",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513690": {
+    "name": "港股红利ETF博时",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "513660": {
+    "name": "恒生ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513650": {
+    "name": "标普500ETF南方",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "513630": {
+    "name": "港股低波红利ETF摩根",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513600": {
+    "name": "恒生指数ETF南方",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513590": {
+    "name": "港股通消费ETF鹏华",
+    "category": "港股-消费",
+    "sector": "港股"
+  },
+  "513580": {
+    "name": "恒生科技ETF指数",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513560": {
+    "name": "香港科技ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "513550": {
+    "name": "港股通50ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513530": {
+    "name": "港股通红利ETF华泰柏瑞",
+    "category": "港股-红利",
+    "sector": "港股"
+  },
+  "513520": {
+    "name": "日经ETF",
+    "category": "日本",
+    "sector": "日本"
+  },
+  "513500": {
+    "name": "标普500ETF博时",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "513400": {
+    "name": "道琼斯ETF",
+    "category": "美股-道琼斯",
+    "sector": "美股"
+  },
+  "513390": {
+    "name": "纳指100ETF博时",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "513380": {
+    "name": "恒生科技ETF广发",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513360": {
+    "name": "教育ETF博时",
+    "category": "行业-教育",
+    "sector": "行业"
+  },
+  "513350": {
+    "name": "标普油气ETF",
+    "category": "美股-标普",
+    "sector": "美股"
+  },
+  "513330": {
+    "name": "恒生互联网ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513320": {
+    "name": "港股通新经济ETF易方达",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513310": {
+    "name": "中韩半导体ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "513300": {
+    "name": "纳斯达克ETF",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "513290": {
+    "name": "纳指生物科技ETF汇添富",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "513280": {
+    "name": "恒生生物科技ETF汇添富",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513260": {
+    "name": "恒生科技ETF汇添富",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513230": {
+    "name": "港股通消费ETF华夏",
+    "category": "港股-消费",
+    "sector": "港股"
+  },
+  "513220": {
+    "name": "中概互联ETF",
+    "category": "中概互联",
+    "sector": "中概互联"
+  },
+  "513210": {
+    "name": "恒生ETF易方达",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513200": {
+    "name": "港股通医药ETF易方达",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513190": {
+    "name": "港股通金融ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513180": {
+    "name": "恒生科技指数ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513170": {
+    "name": "恒生央企ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513160": {
+    "name": "港股科技ETF银华",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "513150": {
+    "name": "港股通科技ETF华泰柏瑞",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "513140": {
+    "name": "港股金融ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513130": {
+    "name": "恒生科技ETF",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513120": {
+    "name": "港股创新药ETF",
+    "category": "港股-其他",
+    "sector": "港股"
+  },
+  "513110": {
+    "name": "纳斯达克100ETF",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "513100": {
+    "name": "纳指ETF",
+    "category": "美股-纳斯达克",
+    "sector": "美股"
+  },
+  "513090": {
+    "name": "香港证券ETF易方达",
+    "category": "港股-证券",
+    "sector": "港股"
+  },
+  "513080": {
+    "name": "法国CAC40ETF",
+    "category": "法国",
+    "sector": "法国"
+  },
+  "513070": {
+    "name": "港股通消费ETF易方达",
+    "category": "港股-消费",
+    "sector": "港股"
+  },
+  "513060": {
+    "name": "恒生医疗ETF博时",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513050": {
+    "name": "中概互联网ETF易方达",
+    "category": "中概互联",
+    "sector": "中概互联"
+  },
+  "513040": {
+    "name": "港股通互联网ETF易方达",
+    "category": "港股-互联网",
+    "sector": "港股"
+  },
+  "513030": {
+    "name": "德国ETF",
+    "category": "德国",
+    "sector": "德国"
+  },
+  "513020": {
+    "name": "港股科技ETF",
+    "category": "港股-科技",
+    "sector": "港股"
+  },
+  "513010": {
+    "name": "恒生科技ETF易方达",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "513000": {
+    "name": "日经225ETF易方达",
+    "category": "日本",
+    "sector": "日本"
+  },
+  "512990": {
+    "name": "MSCIA股ETF华夏",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512980": {
+    "name": "传媒ETF",
+    "category": "行业-传媒",
+    "sector": "行业"
+  },
+  "512970": {
+    "name": "大湾区ETF",
+    "category": "区域-粤港澳",
+    "sector": "区域"
+  },
+  "512960": {
+    "name": "央企结构调整ETF博时",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "512950": {
+    "name": "央企改革ETF华夏",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "512940": {
+    "name": "有色ETF华安",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "512930": {
+    "name": "AI人工智能ETF",
+    "category": "行业-人工智能",
+    "sector": "行业"
+  },
+  "512910": {
+    "name": "中证A100ETF",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "512900": {
+    "name": "证券ETF南方",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "512890": {
+    "name": "红利低波ETF华泰柏瑞",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "512880": {
+    "name": "证券ETF",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "512870": {
+    "name": "杭州湾区ETF南华",
+    "category": "区域-粤港澳",
+    "sector": "区域"
+  },
+  "512820": {
+    "name": "银行ETF汇添富",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "512810": {
+    "name": "军工ETF华宝",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512800": {
+    "name": "银行ETF",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "512770": {
+    "name": "战略新兴ETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "512760": {
+    "name": "芯片ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "512750": {
+    "name": "基本面50ETF嘉实",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "512730": {
+    "name": "银行ETF鹏华",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "512720": {
+    "name": "计算机ETF",
+    "category": "行业-软件",
+    "sector": "行业"
+  },
+  "512710": {
+    "name": "军工龙头ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512700": {
+    "name": "银行ETF南方",
+    "category": "行业-银行",
+    "sector": "行业"
+  },
+  "512690": {
+    "name": "酒ETF",
+    "category": "行业-白酒",
+    "sector": "行业"
+  },
+  "512680": {
+    "name": "军工ETF广发",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512670": {
+    "name": "国防ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512660": {
+    "name": "军工ETF",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512650": {
+    "name": "长三角ETF汇添富",
+    "category": "区域-长三角",
+    "sector": "区域"
+  },
+  "512640": {
+    "name": "金融地产ETF嘉实",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "512630": {
+    "name": "卫星ETF广发",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512620": {
+    "name": "农业ETF天弘",
+    "category": "行业-农业",
+    "sector": "行业"
+  },
+  "512600": {
+    "name": "消费ETF嘉实",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "512580": {
+    "name": "环保ETF",
+    "category": "行业-环保",
+    "sector": "行业"
+  },
+  "512570": {
+    "name": "证券ETF易方达",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "512560": {
+    "name": "军工ETF易方达",
+    "category": "行业-军工",
+    "sector": "行业"
+  },
+  "512550": {
+    "name": "富时A50ETF嘉实",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512530": {
+    "name": "沪深300红利ETF建信",
+    "category": "宽基-沪深300",
+    "sector": "宽基"
+  },
+  "512520": {
+    "name": "MSCIETF",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512510": {
+    "name": "中证500ETF华泰柏瑞",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "512500": {
+    "name": "中证500ETF华夏",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "512480": {
+    "name": "半导体ETF",
+    "category": "行业-芯片半导体",
+    "sector": "行业"
+  },
+  "512400": {
+    "name": "有色金属ETF",
+    "category": "行业-有色金属",
+    "sector": "行业"
+  },
+  "512390": {
+    "name": "平安MSCI低波ETF",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512380": {
+    "name": "MSCI中国ETF银华",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512370": {
+    "name": "A500增强ETF华夏",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512360": {
+    "name": "MSCI中国A股ETF基金",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512330": {
+    "name": "信息科技ETF南方",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "512290": {
+    "name": "生物医药ETF",
+    "category": "行业-生物医药",
+    "sector": "行业"
+  },
+  "512260": {
+    "name": "中证500低波动ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "512250": {
+    "name": "A50ETF招商",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512240": {
+    "name": "A50ETF鹏华",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512220": {
+    "name": "TMTETF",
+    "category": "行业-科技",
+    "sector": "行业"
+  },
+  "512200": {
+    "name": "房地产ETF",
+    "category": "行业-房地产",
+    "sector": "行业"
+  },
+  "512190": {
+    "name": "浙商之江凤凰ETF",
+    "category": "区域-长三角",
+    "sector": "区域"
+  },
+  "512180": {
+    "name": "MSCIA股ETF建信",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512170": {
+    "name": "医疗ETF",
+    "category": "行业-医疗",
+    "sector": "行业"
+  },
+  "512160": {
+    "name": "MSCI中国A股ETF南方",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512150": {
+    "name": "富时A50ETF汇安",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512130": {
+    "name": "全指现金流ETF鹏华",
+    "category": "风格-现金流",
+    "sector": "风格"
+  },
+  "512120": {
+    "name": "医药50ETF",
+    "category": "行业-医药",
+    "sector": "行业"
+  },
+  "512100": {
+    "name": "中证1000ETF",
+    "category": "宽基-中证1000",
+    "sector": "宽基"
+  },
+  "512090": {
+    "name": "MSCIA股ETF易方达",
+    "category": "宽基-MSCI",
+    "sector": "宽基"
+  },
+  "512080": {
+    "name": "A500ETF中金",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512070": {
+    "name": "证券保险ETF易方达",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "512060": {
+    "name": "中证A100ETF天弘",
+    "category": "宽基-A100",
+    "sector": "宽基"
+  },
+  "512050": {
+    "name": "A500ETF基金",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512040": {
+    "name": "价值100ETF",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "512030": {
+    "name": "中证A50增强ETF易方达",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512020": {
+    "name": "A500ETF鹏华",
+    "category": "宽基-A50",
+    "sector": "宽基"
+  },
+  "512010": {
+    "name": "医药ETF易方达",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "512000": {
+    "name": "券商ETF",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "511990": {
+    "name": "华宝添益ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511980": {
+    "name": "现金添富ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511970": {
+    "name": "国寿货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511960": {
+    "name": "货币ETF嘉实",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511950": {
+    "name": "添利货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511930": {
+    "name": "货币ETF国联",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511920": {
+    "name": "广发货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511910": {
+    "name": "融通货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511900": {
+    "name": "富国货币ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "511880": {
+    "name": "银华日利ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511860": {
+    "name": "货币ETF博时",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511850": {
+    "name": "招商财富宝ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511830": {
+    "name": "华泰货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511820": {
+    "name": "鹏华添利ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511810": {
+    "name": "货币ETF南方",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511800": {
+    "name": "易方达货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511770": {
+    "name": "金鹰增益货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511700": {
+    "name": "场内货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511690": {
+    "name": "交易货币ETF大成",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511670": {
+    "name": "华泰天天金ETF",
+    "category": "商品-黄金",
+    "sector": "商品"
+  },
+  "511660": {
+    "name": "货币ETF建信",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511650": {
+    "name": "货币ETF华夏",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511620": {
+    "name": "货币ETF国泰",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511600": {
+    "name": "货币ETF",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511580": {
+    "name": "国债政金债ETF招商",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511520": {
+    "name": "政金债券ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511380": {
+    "name": "可转债ETF博时",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511360": {
+    "name": "短融ETF海富通",
+    "category": "货币",
+    "sector": "货币"
+  },
+  "511270": {
+    "name": "10年地方债ETF海富通",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511260": {
+    "name": "十年国债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511220": {
+    "name": "城投债ETF海富通",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511200": {
+    "name": "信用债ETF华夏",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511190": {
+    "name": "信用债ETF海富通",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511180": {
+    "name": "可转债ETF海富通",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511160": {
+    "name": "国债ETF东财",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511150": {
+    "name": "科创债ETF永赢",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511130": {
+    "name": "30年国债ETF博时",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511120": {
+    "name": "科创债ETF广发",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511110": {
+    "name": "公司债ETF易方达",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511100": {
+    "name": "国债ETF华夏",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511090": {
+    "name": "30年国债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511070": {
+    "name": "公司债ETF南方",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511060": {
+    "name": "5年地方债ETF海富通",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511030": {
+    "name": "公司债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511020": {
+    "name": "国债ETF5至10年",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "511010": {
+    "name": "国债ETF",
+    "category": "债券",
+    "sector": "债券"
+  },
+  "510990": {
+    "name": "180ESGETF工银",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "510980": {
+    "name": "上证指数ETF汇添富",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510950": {
+    "name": "上证50ETF广发",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510900": {
+    "name": "恒生中国企业ETF易方达",
+    "category": "港股-恒生",
+    "sector": "港股"
+  },
+  "510880": {
+    "name": "红利ETF华泰柏瑞",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "510850": {
+    "name": "上证50ETF工银",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510810": {
+    "name": "上海国企ETF汇添富",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "510800": {
+    "name": "上证50ETF建信",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510770": {
+    "name": "G60创新ETF申万菱信",
+    "category": "区域-其他",
+    "sector": "区域"
+  },
+  "510760": {
+    "name": "上证指数ETF国泰",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510720": {
+    "name": "红利国企ETF国泰",
+    "category": "风格-红利",
+    "sector": "风格"
+  },
+  "510710": {
+    "name": "上证50ETF博时",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510680": {
+    "name": "上证50ETF万家",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510670": {
+    "name": "上证180ETF华夏",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510660": {
+    "name": "医药ETF华夏",
+    "category": "行业-中药",
+    "sector": "行业"
+  },
+  "510650": {
+    "name": "金融地产ETF华夏",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "510630": {
+    "name": "消费ETF华夏",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "510600": {
+    "name": "上证50ETF申万菱信",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510590": {
+    "name": "中证500ETF平安",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510580": {
+    "name": "中证500ETF易方达",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510570": {
+    "name": "中证500ETF兴业",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510560": {
+    "name": "中证500ETF国寿",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510550": {
+    "name": "方正中证500ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510530": {
+    "name": "中证500ETF工银",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510510": {
+    "name": "中证500ETF广发",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510500": {
+    "name": "中证500ETF",
+    "category": "宽基-中证500",
+    "sector": "宽基"
+  },
+  "510410": {
+    "name": "资源ETF博时",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "510390": {
+    "name": "沪深300ETF平安",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510380": {
+    "name": "沪深300ETF国寿",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510370": {
+    "name": "沪深300ETF兴业",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510360": {
+    "name": "沪深300ETF广发",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510350": {
+    "name": "沪深300ETF工银",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510330": {
+    "name": "沪深300ETF华夏",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510320": {
+    "name": "沪深300ETF中金",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510310": {
+    "name": "沪深300ETF易方达",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510300": {
+    "name": "沪深300ETF华泰柏瑞",
+    "category": "宽基-A500",
+    "sector": "宽基"
+  },
+  "510290": {
+    "name": "上证380ETF南方",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510270": {
+    "name": "国企ETF",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "510230": {
+    "name": "金融ETF",
+    "category": "行业-金融",
+    "sector": "行业"
+  },
+  "510210": {
+    "name": "上证指数ETF",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510200": {
+    "name": "上证券商ETF汇安",
+    "category": "行业-券商",
+    "sector": "行业"
+  },
+  "510190": {
+    "name": "上证50ETF华安",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510180": {
+    "name": "上证180ETF",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510170": {
+    "name": "大宗商品ETF",
+    "category": "行业-矿业",
+    "sector": "行业"
+  },
+  "510160": {
+    "name": "产业升级ETF南方",
+    "category": "行业-机械",
+    "sector": "行业"
+  },
+  "510150": {
+    "name": "消费ETF",
+    "category": "行业-消费",
+    "sector": "行业"
+  },
+  "510130": {
+    "name": "上证中盘ETF易方达",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510100": {
+    "name": "上证50ETF易方达",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510090": {
+    "name": "责任ETF建信",
+    "category": "风格-ESG",
+    "sector": "风格"
+  },
+  "510060": {
+    "name": "央企ETF工银",
+    "category": "风格-央企",
+    "sector": "风格"
+  },
+  "510050": {
+    "name": "上证50ETF",
+    "category": "宽基-上证50",
+    "sector": "宽基"
+  },
+  "510040": {
+    "name": "上证180ETF鹏华",
+    "category": "宽基-上证",
+    "sector": "宽基"
+  },
+  "510030": {
+    "name": "价值ETF",
+    "category": "风格-价值",
+    "sector": "风格"
+  },
+  "510020": {
+    "name": "超大盘ETF博时",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  },
+  "510010": {
+    "name": "180治理ETF交银",
+    "category": "宽基-其他",
+    "sector": "宽基"
+  }
+}
