@@ -556,9 +556,8 @@ int main() {
             if (name.find("添益") != string::npos) is_non_equity = true;
             if (name.find("日利") != string::npos) is_non_equity = true;
             if (name.find("财富宝") != string::npos) is_non_equity = true;
-            if (name.find("黄金") != string::npos && name.find("股") == string::npos) is_non_equity = true;
-            if (name.find("上海金") != string::npos) is_non_equity = true;
-            if (name == "金ETF") is_non_equity = true;
+            // 黄金/白银ETF保留在池中(用户要求)
+            // 原黄金/上海金/金ETF排除规则已移除
             if (is_non_equity) continue;
         }
         

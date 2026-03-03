@@ -69,6 +69,11 @@ struct StrategyParams {
     
     // Portfolio
     int max_positions;
+    
+    // Optimization params
+    double max_5d_rally = 100.0;     // max allowed 5-day return before entry (default: no filter)
+    bool dedup_category = false;     // same-category de-duplication
+    bool block_military_sep_oct = false; // block military ETF entry in Sep-Oct
 };
 
 struct Trade {
@@ -108,6 +113,85 @@ struct Position {
 vector<string> global_dates;
 unordered_map<string, int> g_date_to_idx;
 const double RISK_FREE_RATE = 0.02;
+
+unordered_map<string, string> etf_category_map;
+
+void load_category_map(const string& json_path) {
+    ifstream file(json_path);
+    if (!file.is_open()) {
+        cerr << "警告: 无法打开ETF分类映射: " << json_path << "\n";
+        return;
+    }
+    string content((istreambuf_iterator<char>(file)), istreambuf_iterator<char>());
+    file.close();
+    
+    size_t pos = 0;
+    while (pos < content.size()) {
+        size_t code_start = content.find('"', pos);
+        if (code_start == string::npos) break;
+        size_t code_end = content.find('"', code_start + 1);
+        if (code_end == string::npos) break;
+        
+        string code = content.substr(code_start + 1, code_end - code_start - 1);
+        
+        size_t obj_start = content.find('{', code_end);
+        if (obj_start == string::npos) break;
+        size_t obj_end = content.find('}', obj_start);
+        if (obj_end == string::npos) break;
+        
+        string obj_str = content.substr(obj_start, obj_end - obj_start);
+        size_t cat_key = obj_str.find("\"category\"");
+        if (cat_key != string::npos) {
+            size_t cat_colon = obj_str.find(':', cat_key);
+            if (cat_colon != string::npos) {
+                size_t cat_start = obj_str.find('"', cat_colon);
+                if (cat_start != string::npos) {
+                    size_t cat_end = obj_str.find('"', cat_start + 1);
+                    if (cat_end != string::npos) {
+                        string cat = obj_str.substr(cat_start + 1, cat_end - cat_start - 1);
+                        etf_category_map[code] = cat;
+                    }
+                }
+            }
+        }
+        pos = obj_end + 1;
+    }
+    cout << "从分类映射加载了 " << etf_category_map.size() << " 个条目\n";
+}
+
+void print_result(const string& label, const StrategyParams& p, const BacktestResult& r) {
+    cout << label << ":\n";
+    cout << "  月线MACD: M(" << p.m_fast << "," << p.m_slow << "," << p.m_signal << ")";
+    cout << " 买入信号=" << p.buy_signal << " 卖出信号=" << p.sell_signal;
+    cout << " 周线确认=" << p.w_confirm << "\n";
+    cout << "  风控: 移动止损=" << p.trailing_stop << "% 止盈=" << p.take_profit << "%";
+    cout << " 最大持仓=" << p.max_positions << "\n";
+    cout << "  优化: 去重=" << (p.dedup_category?"Y":"N") 
+         << " 军工限制=" << (p.block_military_sep_oct?"Y":"N")
+         << " 追高限制=" << (p.max_5d_rally<100 ? to_string(p.max_5d_rally)+"%" : "N") << "\n";
+    cout << "  年化收益: " << fixed << setprecision(2) << r.annualized << "%";
+    cout << "  最大回撤: " << r.mdd * 100.0 << "%";
+    cout << "  Sharpe: " << r.sharpe;
+    cout << "  Calmar: " << r.calmar << "\n";
+    cout << "  交易次数: " << r.trades;
+    cout << "  胜率: " << r.win_rate << "%";
+    cout << "  平均持有天数: " << (int)r.avg_hold_days << "\n";
+}
+
+void print_trades(const BacktestResult& r) {
+    cout << "\n  交易明细:\n";
+    cout << "  " << setw(14) << "ETF" << setw(12) << "买入日期" << setw(12) << "卖出日期" 
+         << setw(10) << "买入价" << setw(10) << "卖出价" << setw(10) << "收益%" << setw(8) << "天数" << "\n";
+    cout << "  " << string(76, '-') << "\n";
+    for (const auto& t : r.trade_list) {
+        cout << "  " << setw(14) << t.etf_name 
+             << setw(12) << t.entry_date << setw(12) << t.exit_date
+             << setw(10) << fixed << setprecision(4) << t.entry_price 
+             << setw(10) << t.exit_price
+             << setw(10) << setprecision(2) << t.pnl_pct << "%"
+             << setw(7) << t.hold_days << "\n";
+    }
+}
 
 // ============================================================
 // Auto-discover ETFs from market_data directory
@@ -520,12 +604,79 @@ BacktestResult run_backtest(const vector<ETFData>& etfs, const StrategyParams& p
                 
                 if (!w_ok) continue;
                 
+                // Anti-chase filter: skip if 5-day return too high (追高过滤)
+                if (params.max_5d_rally < 100.0) {
+                    // Find close from 5 trading days ago for this ETF
+                    double cur_close_val = etfs[i].global_close[d];
+                    double close_5d_ago = 0;
+                    int count_back = 0;
+                    for (int dd = d - 1; dd >= 0 && count_back < 5; --dd) {
+                        double c = etfs[i].global_close[dd];
+                        if (c > 0) { close_5d_ago = c; count_back++; }
+                    }
+                    if (close_5d_ago > 0 && cur_close_val > 0) {
+                        double rally_5d = (cur_close_val - close_5d_ago) / close_5d_ago * 100.0;
+                        if (rally_5d > params.max_5d_rally) continue; // skip this candidate
+                    }
+                }
+
+                // Military ETF seasonal block: no entry in Sep-Oct
+                if (params.block_military_sep_oct) {
+                    string etf_code_raw = etfs[i].code;
+                    // Remove sh/sz prefix
+                    if (etf_code_raw.size() > 2) etf_code_raw = etf_code_raw.substr(2);
+                    auto cat_it = etf_category_map.find(etf_code_raw);
+                    if (cat_it != etf_category_map.end()) {
+                        const string& cat = cat_it->second;
+                        if (cat.find("军工") != string::npos) {
+                            // Check month
+                            string cur_date = global_dates[d];
+                            int month = stoi(cur_date.substr(5, 2));
+                            if (month == 9 || month == 10) continue; // skip military in Sep-Oct
+                        }
+                    }
+                }
+                
+                // Signal strength: use monthly DIF momentum for ranking
+                
                 // Signal strength: use monthly DIF momentum for ranking
                 double strength = m_dif[i][mi] - m_dif[i][mi-1]; // DIF acceleration
                 candidates.push_back({i, strength});
             }
             
             // Sort by signal strength (strongest cycle bottom signal first)
+            sort(candidates.begin(), candidates.end(), [](const BuyCandidate& a, const BuyCandidate& b) {
+                return a.strength > b.strength;
+            });
+            
+            // Same-category de-duplication: keep only strongest signal per category
+            if (params.dedup_category) {
+                unordered_map<string, bool> seen_category;
+                // Also mark categories of existing positions
+                for (const auto& pos : active_positions) {
+                    string pos_code = etfs[pos.etf_idx].code;
+                    if (pos_code.size() > 2) pos_code = pos_code.substr(2);
+                    auto cat_it = etf_category_map.find(pos_code);
+                    if (cat_it != etf_category_map.end()) {
+                        seen_category[cat_it->second] = true;
+                    }
+                }
+                // Filter candidates: keep only first per unseen category
+                vector<BuyCandidate> deduped;
+                for (const auto& cand : candidates) {
+                    string cand_code = etfs[cand.etf_idx].code;
+                    if (cand_code.size() > 2) cand_code = cand_code.substr(2);
+                    auto cat_it = etf_category_map.find(cand_code);
+                    string cat = (cat_it != etf_category_map.end()) ? cat_it->second : "";
+                    if (cat.empty() || !seen_category.count(cat)) {
+                        deduped.push_back(cand);
+                        if (!cat.empty()) seen_category[cat] = true;
+                    }
+                }
+                candidates = deduped;
+            }
+            
+            // Buy the top candidates
             sort(candidates.begin(), candidates.end(), [](const BuyCandidate& a, const BuyCandidate& b) {
                 return a.strength > b.strength;
             });
@@ -615,7 +766,10 @@ BacktestResult run_backtest(const vector<ETFData>& etfs, const StrategyParams& p
 // Main
 // ============================================================
 
-int main() {
+int main(int argc, char* argv[]) {
+    string mode = "scan"; // default: full parameter scan
+    if (argc > 1) mode = argv[1];
+    
     string data_dir = "/ceph/dang_articles/yoj/market_data_qfq/";
     string cache_path = "/ceph/dang_articles/yoj/etf_list_cache.json";
     
@@ -691,11 +845,8 @@ int main() {
             if (name.find("添益") != string::npos) is_non_equity = true;  // 华宝添益=货币基金
             if (name.find("日利") != string::npos) is_non_equity = true;  // 银华日利=货币基金
             if (name.find("财富宝") != string::npos) is_non_equity = true;  // 招商财富宝=货币基金
-            // 黄金/金ETF排除，但黄金股ETF保留
-            if (name.find("黄金") != string::npos && name.find("股") == string::npos) is_non_equity = true;
-            // 上海金ETF、金ETF (518xxx) = 商品黄金
-            if (name.find("上海金") != string::npos) is_non_equity = true;
-            if (name == "金ETF") is_non_equity = true;
+            // 黄金/白银ETF保留在池中(用户要求)，仅排除黄金股ETF以外的非权益商品
+            // if (name.find("黄金") != ...) — 已移除，黄金/白银ETF纳入轮动池
             if (is_non_equity) {
                 cerr << "  [非权益] " << name << " (" << code << ")\n";
                 continue;
@@ -753,6 +904,92 @@ int main() {
         }
     }
     
+    // Load category map
+    load_category_map("/ceph/dang_articles/yoj/etf_category_map.json");
+
+    if (mode == "single") {
+        StrategyParams p;
+        p.m_fast = 6; p.m_slow = 15; p.m_signal = 3;
+        p.buy_signal = 2; p.sell_signal = 2;
+        p.w_fast = 8; p.w_slow = 30; p.w_signal = 3;
+        p.w_confirm = 0;
+        p.trailing_stop = 0; p.take_profit = 30;
+        p.max_positions = 3;
+        p.max_5d_rally = 100.0;
+        p.dedup_category = false;
+        p.block_military_sep_oct = false;
+        
+        BacktestResult r = run_backtest(etfs, p);
+        print_result("Single Run (Best Baseline)", p, r);
+        print_trades(r);
+        
+        cout << "\n  各ETF贡献:\n";
+        unordered_map<string, pair<int, double>> etf_stats; // name -> (trades, total_pnl)
+        for (const auto& t : r.trade_list) {
+            etf_stats[t.etf_name].first++;
+            etf_stats[t.etf_name].second += t.pnl_pct;
+        }
+        vector<pair<string, pair<int, double>>> sorted_stats(etf_stats.begin(), etf_stats.end());
+        sort(sorted_stats.begin(), sorted_stats.end(), [](const auto& a, const auto& b) {
+            return a.second.second > b.second.second;
+        });
+        for (const auto& [name, stats] : sorted_stats) {
+            cout << "    " << setw(20) << name << ": " << stats.first << " 笔, 累计收益 " 
+                 << fixed << setprecision(2) << stats.second << "%\n";
+        }
+        return 0;
+    } else if (mode == "compare") {
+        auto run_and_print = [&](const string& label, StrategyParams p) {
+            BacktestResult r = run_backtest(etfs, p);
+            cout << label << " | 年化: " << fixed << setprecision(2) << r.annualized << "% | 回撤: " 
+                 << fixed << setprecision(2) << r.mdd * 100.0 << "% | Sharpe: " 
+                 << fixed << setprecision(2) << r.sharpe << " | 胜率: " 
+                 << fixed << setprecision(2) << r.win_rate << "% | 交易数: " << r.trades << "\n";
+            return r;
+        };
+
+        StrategyParams base;
+        base.m_fast = 6; base.m_slow = 15; base.m_signal = 3;
+        base.buy_signal = 2; base.sell_signal = 2;
+        base.w_fast = 8; base.w_slow = 30; base.w_signal = 3;
+        base.w_confirm = 0;
+        base.trailing_stop = 0; base.take_profit = 30;
+        base.max_positions = 3;
+        base.max_5d_rally = 100.0;
+        base.dedup_category = false;
+        base.block_military_sep_oct = false;
+
+        cout << "\n=== 优化效果对比 (M(6,15,3) buy=2 sell=2 wc=0 mp=3) ===\n";
+        run_and_print("1. 基准策略 (Baseline)       ", base);
+
+        StrategyParams p2 = base; p2.max_5d_rally = 10.0;
+        run_and_print("2. 仅防追高 (Max5D=10%)      ", p2);
+
+        StrategyParams p3 = base; p3.dedup_category = true;
+        run_and_print("3. 仅同类去重 (Dedup)        ", p3);
+
+        StrategyParams p4 = base; p4.block_military_sep_oct = true;
+        run_and_print("4. 仅限制军工 (BlockMil)     ", p4);
+
+        StrategyParams p5 = base; 
+        p5.max_5d_rally = 10.0; p5.dedup_category = true; p5.block_military_sep_oct = true;
+        BacktestResult r5 = run_and_print("5. 综合优化 (All Combined)   ", p5);
+
+        cout << "\n--- 防追高阈值扫描 (基于综合优化) ---\n";
+        vector<double> thresholds = {3.0, 5.0, 7.0, 10.0, 15.0, 20.0};
+        for (double th : thresholds) {
+            StrategyParams p_th = p5;
+            p_th.max_5d_rally = th;
+            run_and_print(string("防追高阈值 ") + (th < 10 ? " " : "") + to_string((int)th) + "%          ", p_th);
+        }
+
+        cout << "\n=== 综合优化完整交易记录 ===\n";
+        print_trades(r5);
+        return 0;
+    }
+
+    // ============================================================
+    // Parameter Grid Search
     // ============================================================
     // Parameter Grid Search
     // ============================================================
@@ -847,37 +1084,6 @@ int main() {
     // ============================================================
     // Print Results
     // ============================================================
-    
-    auto print_result = [](const string& label, const StrategyParams& p, const BacktestResult& r) {
-        cout << label << ":\n";
-        cout << "  月线MACD: M(" << p.m_fast << "," << p.m_slow << "," << p.m_signal << ")";
-        cout << " 买入信号=" << p.buy_signal << " 卖出信号=" << p.sell_signal;
-        cout << " 周线确认=" << p.w_confirm << "\n";
-        cout << "  风控: 移动止损=" << p.trailing_stop << "% 止盈=" << p.take_profit << "%";
-        cout << " 最大持仓=" << p.max_positions << "\n";
-        cout << "  年化收益: " << fixed << setprecision(2) << r.annualized << "%";
-        cout << "  最大回撤: " << r.mdd * 100.0 << "%";
-        cout << "  Sharpe: " << r.sharpe;
-        cout << "  Calmar: " << r.calmar << "\n";
-        cout << "  交易次数: " << r.trades;
-        cout << "  胜率: " << r.win_rate << "%";
-        cout << "  平均持有天数: " << (int)r.avg_hold_days << "\n";
-    };
-    
-    auto print_trades = [](const BacktestResult& r) {
-        cout << "\n  交易明细:\n";
-        cout << "  " << setw(14) << "ETF" << setw(12) << "买入日期" << setw(12) << "卖出日期" 
-             << setw(10) << "买入价" << setw(10) << "卖出价" << setw(10) << "收益%" << setw(8) << "天数" << "\n";
-        cout << "  " << string(76, '-') << "\n";
-        for (const auto& t : r.trade_list) {
-            cout << "  " << setw(14) << t.etf_name 
-                 << setw(12) << t.entry_date << setw(12) << t.exit_date
-                 << setw(10) << fixed << setprecision(4) << t.entry_price 
-                 << setw(10) << t.exit_price
-                 << setw(10) << setprecision(2) << t.pnl_pct << "%"
-                 << setw(7) << t.hold_days << "\n";
-        }
-    };
     
     // Sort by different criteria
     cout << "==========================================================\n";
