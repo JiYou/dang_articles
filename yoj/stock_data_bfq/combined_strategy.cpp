@@ -570,21 +570,12 @@ int main() {
         // Check if all macro data available
         bool has_macro = idx_close_map.count(cur_date) && citic_close_map.count(cur_date) && nasdaq_close_map.count(cur_date);
         if (!has_macro) {
-            // Record equity with forward-filled values
-            double eq = cash;
-            if (state == STATE_CITIC && macro_shares > 0 && citic_close_map.count(cur_date))
-                eq = macro_shares * citic_close_map[cur_date];
-            else if (state == STATE_NASDAQ && macro_shares > 0 && nasdaq_close_map.count(cur_date))
-                eq = macro_shares * nasdaq_close_map[cur_date];
-            else if (state == STATE_MACD) {
-                eq = cash;
-                for (const auto& pos : macd_positions) {
-                    double p = etfs[pos.etf_idx].global_close[d];
-                    if (p <= 0) p = pos.entry_price;
-                    eq += pos.shares * p;
-                }
+            // No macro data this day — forward-fill with previous equity value
+            if (!equity_curve.empty()) {
+                equity_curve.push_back(equity_curve.back());
+            } else {
+                equity_curve.push_back(capital);
             }
-            equity_curve.push_back(eq);
             continue;
         }
         
@@ -937,6 +928,7 @@ int main() {
             mdd_trough_date = global_dates[start_idx + i];
         }
     }
+    
     
     double mean_ret = daily_rets.empty() ? 0 : sum_ret / daily_rets.size();
     double var = 0;
