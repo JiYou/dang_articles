@@ -1,0 +1,8 @@
+Version,Ann.Return(%),MaxDrawdown(%),Sharpe,Trades,WinRate(%)
+Buy-and-Hold,3.36,27.02,0.17,0,0.00
+V4-Monthly,0.57,82.13,-0.04,3,0.00
+V5-Weekly,8.55,64.27,0.26,53,37.74
+V7-DualTF,13.53,80.24,0.12,62,33.87
+V8-Sector,42.12,31.18,0.44,55,34.55
+V10-Sharpe,27.54,15.18,1.25,279,43.73
+V10-Calmar,20.32,27.75,0.74,213,38.50
