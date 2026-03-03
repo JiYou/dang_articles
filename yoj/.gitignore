@@ -27,3 +27,28 @@ stock_data_bfq/__pycache__/
 *.png
 stock_data_bfq/*.png
 km_data/*.png
+
+# ETF data directories (too large for git, re-download via scripts)
+market_data_qfq/
+market_data_qfq_back/
+stock_data_qfq/
+
+# Download logs and progress
+*.log
+etf_download_qfq_progress.json
+
+# Compiled binaries (new strategies)
+stock_data_bfq/etf_rotation
+stock_data_bfq/etf_rotation_opt
+stock_data_bfq/etf_rotation_opt_v2
+stock_data_bfq/drawdown_analysis
+stock_data_bfq/etf_macd_comparison
+stock_data_bfq/cyclical_etf_rotation
+stock_data_bfq/cyclical_etf_rotation_wf
+stock_data_bfq/all_etf_rotation
+stock_data_bfq/all_etf_rotation_wf
+stock_data_bfq/combined_strategy
+
+# Temporary files
+stock_data_bfq/tmp_*.txt
+v8_copy.cpp
