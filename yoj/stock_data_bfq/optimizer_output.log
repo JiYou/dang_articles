@@ -1,0 +1,7 @@
+Loaded all_stock.csv from: ./../all_stock.csv
+Loaded market data: 2709 days.
+Loading stock data...
+Loaded 2472 stocks.
+Total parameter combinations: 67500
+Starting optimization on 16 threads...
+New Best: 31.1174% [f:8 s:20 sig:7 bd:-0.03 sd:0 me:0 ml:0 mh:9]   New Best: 43.0803% [f:8 s:20 sig:7 bd:-0.03 sd:0 me:0 ml:0 mh:0]   Progress: 0 / 67500New Best: 45.2215% [f:8 s:20 sig:7 bd:-0.01 sd:0 me:0 ml:0 mh:0]   New Best: 45.4494% [f:8 s:20 sig:7 bd:0 sd:0 me:0 ml:0 mh:0]   Progress: 1000 / 67500New Best: 45.5652% [f:8 s:20 sig:9 bd:0 sd:0 me:0 ml:0 mh:0]   Progress: 2000 / 67500
