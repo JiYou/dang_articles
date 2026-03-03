@@ -3,6 +3,18 @@ cyclical_backtest
 stock_data_bfq/ema_strategy
 stock_data_bfq/svm_strategy
 stock_data_bfq/monthly_macd_strategy
+stock_data_bfq/macd_optimizer
+stock_data_bfq/macd_optimizer_v2
+stock_data_bfq/macd_optimizer_v3
+stock_data_bfq/macd_optimizer_v3_dbg
+stock_data_bfq/macd_optimizer_v4
+stock_data_bfq/macd_optimizer_v5
+stock_data_bfq/macd_optimizer_v6
+stock_data_bfq/macd_optimizer_v7
+stock_data_bfq/etf_macd_strategy
+stock_data_bfq/etf_macd_optimizer_v5
+stock_data_bfq/etf_macd_optimizer_v6
+stock_data_bfq/etf_macd_optimizer_v7
 
 # Python cache
 __pycache__/
