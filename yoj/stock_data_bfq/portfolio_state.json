@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-04",
+  "cash": 2818625.92,
+  "equity": 42602285.22,
+  "positions": [
+    {
+      "code": "sh563530",
+      "name": "卫星ETF易方达",
+      "entry_date": "2026-01-19",
+      "entry_price": 1.6600,
+      "current_price": 1.5460,
+      "shares": 8482090.56,
+      "pnl_pct": -6.87
+    },
+    {
+      "code": "sz159805",
+      "name": "传媒ETF",
+      "entry_date": "2026-01-19",
+      "entry_price": 1.6490,
+      "current_price": 1.4730,
+      "shares": 8538672.12,
+      "pnl_pct": -10.67
+    },
+    {
+      "code": "sz159100",
+      "name": "巴西ETF",
+      "entry_date": "2026-02-02",
+      "entry_price": 1.3220,
+      "current_price": 1.2060,
+      "shares": 11685641.17,
+      "pnl_pct": -8.77
+    }
+  ],
+  "signals": [
+    {
+      "type": "SELL",
+      "code": "sz159805",
+      "name": "传媒ETF",
+      "category": "行业-传媒",
+      "ref_price": 1.4730,
+      "reason": "周线死叉 + 月线DIF下行"
+    }
+  ]
+}
