@@ -48,6 +48,8 @@ stock_data_bfq/cyclical_etf_rotation_wf
 stock_data_bfq/all_etf_rotation
 stock_data_bfq/all_etf_rotation_wf
 stock_data_bfq/combined_strategy
+stock_data_bfq/daily_signal
+stock_data_bfq/analyze_trades
 
 # Temporary files
 stock_data_bfq/tmp_*.txt
